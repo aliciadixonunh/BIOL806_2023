@@ -1,0 +1,2372 @@
+---
+title: "806 Final Project"
+author: "Alicia Dixon"
+date: "2023-12-01"
+output:
+  word_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+##Title: Disturbance drives leaf litter leachate dynamics in a tropical stream ecosystem
+
+
+###Introduction
+
+
+Leaf litter is a major terrestrial (e.g., allochthonous) input of organic matter (OM) and nutrients into freshwater stream systems, and a main driver of biogeochemical cycling. Litter leachate, a product of leaf decomposition, introduces dissolved organic matter (DOM) to the stream ecosystem for eventual consumption and processing by microbes and macroinvertebrates (Cummins 1974; Meyer et al 1998; Wymore et al 2019). Approximately 40% of a stream’s DOM pool is derived from leaf leachate, with the majority of it available for biological uptake (McDowell and Fisher 1976). Decomposition rates, including leaching, depend on climate, and plant functional and elemental traits (Cornwell et al 2008). Although the fate of litterfall in temperate streams is well studied, such as rates of microbial decomposition and respiration, food web consumption and transformation, and leaching, (Kaushik & Hynes 1971; Marks 2019), we understand relatively little about the fate of litterfall in tropical systems that receive continuous inputs of allochthonous material.
+
+
+Allochthonous OM in tropical ecosystems drives biogeochemical processes at both large and small scales. For example, external DOM may drive the global carbon cycle through fueling metabolic regimes of tropical headwater streams. It is unclear how varying tropical leaf litter (i.e., phenophase and species) results in different forms of bioavailable OM. The physical structure of a plant, as well as its geographic location (e.g., soil and bedrock type or north versus south facing slope), may impact the quantity and composition of its leaf litter and leachate that enters a stream upon defoliation or senescence (Hudson et al 2018). While terrestrial carbon often serves as the base of headwater stream food webs, disturbance events may cause a shift in DOM sources and sinks in a tropical stream system (Gutiérrez-Fonseca et al 2023).
+
+
+Disturbance events change the rate and type of leaf litter entering tropical stream systems. For example, hurricanes introduce large amounts of fresh green leaves that are defoliated due to wind and rain destruction. In contrast, during droughts streams receive higher amounts of brown, water distressed, and senesced leaves (Fonte and Schowalter 2004, Chen et al. 2015). Disturbance-initiated OM inputs impact stream chemistry because aside from hurricanes and droughts, leaf senescence in tropical ecosystems typically occurs consistently year-round, contrary to temperate ecosystems which experience major seasonal litterfall patterns. Disturbance events may impact stream chemistry differently as a result of varying disturbance-initiated leaf litter leachate composition. 
+
+
+Analyzing leaf litter leachate from fresh (green) and senesced (brown) leaves can inform how stream chemistry may differ during and after severe hurricanes and droughts, providing a better understanding of OM as a driver of disturbance-related biogeochemical cycling. Brown and green leaf litter break down and interact with stream ecosystems differently, as brown leaves have undergone more decomposition and nutrient loss prior to entering the stream, while green leaves’ physical structure is still mostly intact but with less soluble forms of OM (Gessner et al. 1991). The ratios and concentrations of nutrients, dissolved organic carbon (DOC), and structural components (e.g., tannin and lignin) in leaf litter vary based on whether the leaf has fully senesced prior to defoliation (Taylor and Parkinson 1988, Alves et al. 2020). Chemistry of senescing leaves transforms as the leaf starts to die and leaf nutrients are relocated to other parts of the plant, but the extent of resorption of nutrients by plants differs by species (Killingbeck 1996, Hudson et al. 2018). Resorption is almost always incomplete, so when abscission occurs, some DOC, nitrogen, and phosphorus are still present in the leaf litter (Killingbeck 1996). In brown leaves, the leaf’s physical structure has also started to break down so the leaf may be more easily leached.  
+
+
+Here we ask the overarching question, how do different forms of disturbance in a tropical ecosystem affect DOM and solute dynamics in stream ecosystems? There is still limited understanding as to how leaching trends and properties from tropical leaves vary by species and disturbance events, such as droughts and hurricanes. We focus on leaf litter leaching in the Luquillo Experimental Forest (LEF), Puerto Rico, and how it relates to and influences the potential fate of a fallen leaf within a tropical freshwater watershed. Closing the leachate gap in Luquillo will help further discern C cycling across the aquatic-terrestrial interface within a tropical rainforest watershed. To address this gap, we tested for differences in leachate from senesced and freshly abscised leaf litter from nine species in the El Verde Watershed in the LEF. Leaves were leached in deionized water for seven days and the corresponding leachate was analyzed. We hypothesized that (1) leachate chemistry will vary by disturbance treatments: drought-induced dried senesced leaves will leach greater quantities of bioavailable DOM and solutes than hurricane-induced freshly abscised leaves; and (2) leachate chemistry will vary across nine different species common to the Luquillo Experimental Forest in correspondence with their established leaf C:N ratios and decomposition rates.
+
+
+###Methods
+
+
+####Study Site
+
+
+The Luquillo Experimental Forest (LEF) is a Long-Term Ecological Research (LTER) site within the El Yunque National Forest (EYNF) on the Caribbean Island of Puerto Rico. This tropical forest is located within the higher elevations of the island and is characterized by its diversity of tropical plants and countless freshwater streams across the steep to moderate slopes. The site of this study is in the LEF on the northeastern side of the island and primarily focusses on Quebrada Prieta (QP) (Figure 1). This small headwater stream is a tributary of Quebrada Sonadora. A 100-meter reach designated as pool zero was used for data collection because above pool zero the stream is forked, designated as QPA and QPB (Figure 2). This headwater stream is representative of other relatively undisturbed streams along a mountainous slope in the LEF. This site is also characteristic of streams above waterfalls in this region that limit biological communities including fish, eels, and shrimp. QP is representative of other tropical, freshwater headwater streams in the EYNF that support diverse ecological communities.
+
+
+####Sampling
+
+
+Senesced brown and freshly abscised green leaves were used as proxies for drought and hurricane litterfall pulses. Leaves from nine different tropical riparian species (Table 1) were collected in the LEF during the summers of 2007 and 2008. Previous studies had identified these species as contributors to stream litterfall in the QP watershed (Heartsill-Scalley and Aide 2003). Fresh green leaves were collected directly from tree branches, while senesced leaves were collected using mesh litter collectors under each tree species. These litter collectors caught leaves that naturally fell from branches. Six one-inch leaf disks were cut from leaves of each species: three replicates of freshly abscised samples and three replicates of senesced leaves. Disks were leached in 150 milliliters (mL) of deionized water for one, three, and seven days. Leaching was initiated the same day as collection and occurred at room temperature with limited light exposure. The three leachate replicates were analyzed and all results were normalized by dry weight. Duplicate samples were taken in the two different years to assess the impacts of any annual variation in leaf chemistry. 
+
+
+####Analytical Methods
+
+
+Leachate samples were filtered through pre-combusted (450°C for 6 hours) Whatman glass-fiber filters (GF/F; Whatman International Ltd., Maidstone, England) into acid-washed HDPE bottles, put on ice, and transported to the University of New Hampshire for analysis. We measured anions (Cl-, NO3-, SO42-) and cations (Na+, K+, Mg2+, and Ca2+) with a Dionex Ion Chromatograph (Dionex Corporation, Sunnyvale, California, USA) with suppressed conductivity (EPA 300.1; USEPA 1997).  NH4+ and PO43- were measured with a SmartChem 200 (Unity Scientific, Brookfield, CT, USA) discrete colorimetric analyzer. Dissolved organic carbon (DOC) and total dissolved nitrogen (TDN) were measured by high temperature catalytic oxidation with a Shimadzu Total Organic Carbon analyzer (TOC-VSH or TOC-LSH; Shimadzu Corporation, Koyoto, Japan). Dissolved organic nitrogen (DON) was calculated as the difference between TDN and dissolved inorganic nitrogen (DIN), where DIN is the sum of NO3- and NH4+. A detection limit (DL) of 0.01 mg N/L was assigned to DON, and data below the DL for all other chemistry variables were included in data analysis and assigned ½ the DL. Mass loss was calculated by adding all elemental and anion/cation leachate recorded for each day leached.
+
+
+####Statistical Analysis
+
+
+We tested for significant differences among leaf type and species for total mass loss, DOC, TDN, and C:N using a 1-way analysis of variance (ANOVA) followed by a post-hoc Tukey's Honest Significant Difference when the ANOVA results were significant. Boxplots in combination with ANOVA were used to identify differences among days leached and leaf type for each species. Statistics were not performed on species 8 (Sloanea berteriana) because a leaf mass error on day seven led to only one value for all three replicates of senesced leaves. Therefore, species 8 data was included in figures and visualization of overarching trends, but not statistics. 
+
+
+We used linear regression to estimate the rate of leaching from fresh and senesced leaves for each species. Rates were compared through an analysis of covariance (ANCOVA). We also used linear regressions to explore the relationships between leachate chemistry variables. To look at grouping differences between brown and green leaves and between species, a principal component analysis (PCA) was run in R using the vegan package. All statistical analyses were performed using R version 4.2.3 (R Core Team 2023) with an α < 0.05 being the significance threshold for all analyses.
+
+
+###Results 
+
+
+####Leachate analysis by treatment (leaf type) and time
+
+
+Significant patterns were observed distinguishing biochemistry of leachate from senesced versus freshly abscised leaves. Senesced leaves from species 1, 6, 7 and 9 all experienced a significantly (p < 0.05) greater degree of total mass loss than fresh leaves after seven days of leaching (Figure 3). This finding indicates that greater overall leaching may occur in senesced leaves, and therefore in leaves falling during droughts, compared to freshly abscised leaves which are associated with hurricane events. In general, senesced leaves from species 1, 7, 8 and 9 experienced greater rates of mass loss over the seven-day period than freshly abscised leaves (Figure 4). Conversely, fresh leaves from species 2, 3, 4, 5, and 6 experiences higher rates of total lead mass loss over seven days of leaching (Figure 4). However, these trends were not found to be statistically significant after running an ANCOVA analysis. 
+
+
+Senesced leaves from species 1, 3, 5, 6, 7 through 9 all leached significantly (p < 0.05) greater concentrations of DOC than freshly abscised leaves (Figure 5). This indicates that more carbon may leach from senesced leaves falling during droughts than fresh leaves abscising during hurricane events. In general, senesced leaves leached DOC over a seven-day period at greater rates than freshly abscised leaves, with the exception of species 6 and 8 (Figure 6). However, upon running an ANCOVA analysis this trend was not found to be statistically significant. There is a statistically significant (p < 0.005) trend between K+ and DOC, seen in both concentration and percent leaf loss due to the cation/element in leachate from freshly abscised leaves associated with hurricane defoliation, but not in leachate from senesced leaves associated with droughts (Figure 9). As DOC increases in leachate from fresh leaves, K+ increases as well.
+
+
+Overall, TDN concentrations in litter leachate were higher in senesced leaves than fresh leaves, with the exception of species 1 (Figure 7). Species 3, 5, 6, 7, and 9 leached significantly (p < 0.05) greater concentrations of TDN than freshly abscised leaves (Figure 7). Percentage of TDN that was DON varied across leaf types and species, ranging from 0.69% in fresh leaves of species 1, to 99.7% in senesced leaves of species 4. DON concentrations in senesced leaf leachate typically had a narrower range of higher values than fresh leaves, as seen through percentages of TDN that is DON ranging from 20% to 99.7% in senesced leaves across all species. Fresh leaf leachate had a wider range of DON fractions of TDN.  Over the seven days of leaching, inorganic N species in litter leachate (NO3- and NH4+) remained fairly constant, except in species 1 where they increased. Alternatively, DON mostly decreased over time.
+
+
+In general, senesced leaves leached greater concentrations of Cl-, K+, Na+, Ca2+, and Mg2+ than freshly abscised leaves, but whether or not differences were significant varied by species (Table 2). This indicates that leaf litter from droughts is consistently contributing more Cl- and cations to streams than leaf litter from hurricanes.
+
+
+####Leachate analysis by species and time
+
+
+N concentrations were an order of magnitude higher in species 1 (Bambusa vulgaris) than all other species (Figure 7). C:N was significantly (p < 0.05) higher in leachate from senesced leaves than fresh leaves from species 1, 3, 5 and 7 (Figure 10). Concentrations of C and N in leaves and leaf leachate varied by species (Tamara USFS-IITF), and C:N ratios in leachate were observed within a range of 3 and greater than 700 (Figure 10). Phosphate (PO43-), NO3-, and NH4+ had the lowest total leaching among all elements and across all species. 
+
+
+Most species had a positive mass loss rate, but species 1 and 9 had negative rates which could indicate mass gain due to growing bacteria and decomposition. In a PCA ordination, axis 1 is largely explained by percent total mass loss and axis 2 is mostly explained by percent mass loss that is C and DOC concentration in leachate (Figure 11). There is grouping by species in the PCA that, despite its horseshoe shape, suggests that species characteristics may differ based on mass loss and C trends (Figure 11). Such mass loss patterns are reflected in rates of C leaching over time (Figure 5). 
+
+
+###Discussion
+
+
+Correlations between on-plant leaf chemistry, in-stream leaf litter decomposition, and leaf leaching patterns are valuable for making future predictions of disturbance-initiated OM inputs across the aquatic-terrestrial interface. As hurricanes and droughts become more frequent and severe in Puerto Rico, it is important to understand how OM (i.e., leaf litter leachate) entering stream systems varies across these climate events. We found that within the seven-day period of our study, total mass loss, DOC and DON concentrations, and many anion/cation concentrations were all higher in leachate from senesced leaves than fresh leaves, and varied across species. The LEF study site is an important tropical ecosystem science research site because there are opportunities for conducting different types of ecosystem-scale experiments, such as leaf litter leachate experiments, and subsequently compare these data to other ecosystems as a way to understand patterns or differences in biogeochemical cycles. 
+
+
+####Leachate differences by leaf phenophase and species
+
+
+Determining the timeline and variables that constitute leaf leaching is an essential component of understanding aquatic-terrestrial interfaces from an ecosystem science approach. However, there are inconsistencies throughout the literature about what defines leaf leachate (source). It is largely thought that a large proportion of leaf mass can be lost due to leaching in the first 24 hours that a leaf experiences in a stream (McDowell and Fisher 1976, Meyer et al. 1998), but it is less clear what leaching occurs in subsequent days. Here, we define all observations within the seven days of this study as leaching, but acknowledge that some early decomposition may have occurred because we are unable to control all leaf microbial activity prior to sample collection. While we assume there is no microbial activity for the purpose of this study, leaf mass gain could reflect growing bacteria that preexisted on leaves (Fig. 4). Further investigation could consider decomposition when analyzing change in DOC, and may conclude that most of mass loss occurring on day 1 is carbon that is subsequently metabolized during the following days. We found that the amount of leaching per day differs by species and by leaf type (Fig. 3). Green leaves are probably hydrophobic when first introduced to water, inhibiting the leaching process (source). On the other hand, senesced leaves are potentially leaching DOM and nutrients before collection (source). Across the nine species in our study, leaching varied in quantity and rate (Figs. 3, 4). Results from this study suggest that forest species composition is integral to making conclusions on watershed-specific biogeochemical cycling.
+
+
+Total mass loss of leaf litter varying by leaf type (i.e., senesced or fresh) has implications for stream biogeochemistry in response to major climate events. Total mass loss percentage is may be higher in senesced leaves rather than fresh leaves because their physical structure is more susceptible to leaching or structural break-down (source). On the other hand, fresh leaves typically still have a mostly intact outer cuticle (source), making them more resistant to decomposition, and thus leaching. Greater percentages of mass loss in senesced leaves than fresh leaves have implications for stream inputs from leaf leachate during droughts and hurricanes. Larger quantities of mass loss in the leachate may imply that more OM, in the form of DOC or DON, or more anions and cations, are entering streams during droughts regardless of the relationship between these variables and leaf type (Fig. 4). Greater rates of mass loss in senesced leaves, coupled with the higher percentages of total mass loss, suggests that leaves falling during droughts are both contributing more leachate to the stream, and contributing to it faster, than leaves falling during hurricanes (Figs. 3, 4). It is also important to consider stream discharge during climatic events such as droughts and hurricanes when determining leachate influence in a stream. Not only are senesced leaves introducing greater quantities and rates of leachate, but their residence time in a given area of the stream is likely greater than that of fresh leaves that enter the stream during a hurricane due to decreased discharge (source).
+
+
+Rates of DOC stream inputs are key for understanding the dynamics of both global and watershed carbon cycling between the aquatic-terrestrial interface. Higher concentrations of DOC leaching from senesced leaves, together with greater mass loss from senesced leaves, suggest that leaf inputs during droughts may contribute more stream carbon than inputs during hurricanes (Figs. 5, 6). As greater quantities of organic carbon are entering the stream more quickly, there is greater available at a faster rate for consumption by shrimp, macroinvertebrates, and microbes. Higher rates of DOC leaching in senesced leaves are similar to trends we saw in rates of total mass loss (Figs. 4, 6). Not only are leaf inputs from droughts leaching higher concentrations of DOC, but they are also leaching more DOC over the seven-day period than leaf inputs from hurricanes. DOC values for senesced leaves are much higher than those recorded by other studies in temperate ecosystems, while DOC values for fresh leaves are within the same range (Wymore et al. 2015). Compounding factors, such as percentage of leaf loss and quantity of carbon, could explain larger amounts of OM coming from senesced leaves than from freshly abscised leaves. These trends in OM stream inputs have implications for metabolism in tropical freshwater streams experiencing such severe climatic events. Higher rates of DOC inputs to the stream suggests that there may be more available carbon for decomposers in-stream to consume and respire. Further knowledge is needed on carbon cycling dynamics occurring during and following droughts and hurricanes, and the role that leaf litter inputs plays in metabolic regimes.
+
+
+Assessing nitrogen content in leachate contributes to greater understanding of nutrient coupling in freshwater ecosystems. Higher concentrations of TDN in leachate from senesced leaves compared to freshly abscised leaves, with the exception of species 1, indicate that leaf litter entering the stream during droughts contribute more nitrogen to the system than litter entering during hurricanes (Fig. 7). The increase in DIN over time in species 1 fresh leaf leachate suggests that decomposition of DON and subsequently mineralization of nitrogen is occurring. DON generally decreases over time in leachate from most species, which is typical during decomposition processes. Denitrification is a substantial sink for nitrate in tropical streams (Potter et al 2010), so is important to understand nitrogen cycling in the context of leaf litter leachate. C:N ratios in leachate from fresh and senesced leaves were variable. Species 2 and 6 recorded significantly higher C:N (p < 0.05), while species 3 and 7 showed significantly lower C:N (p < 0.05) in leachate from fresh leaves (Fig. 10). Each species has different carbon and nitrogen dynamics depending on leaf stage, which could be due to different nutrient allocation processes related to varying forms of stress (source). 
+
+
+Potassium (K+) appears to be linked to DOC, suggesting there may be leaf functions at the cellular scale controlling nutrient release in different stress scenarios. Contrary to other patterns seen in this study, there is a significant positive relationship between K+  and carbon in leachate from freshly abscised leaves, but not senesced leaves. The relationship appears to be driven especially by species 1 (bamboo) and 4 (white cogwood), which could indicate a species-specific cellular leaf function that exposes K+  to loss when leaves are abscised abruptly during hurricanes, but allows it to reabsorb into the plant when leaves senesce during droughts (Fig. 9). Net immobilization of K+ has been observed in leaf litter decomposition of similar species on the forest floor in the LEF, which suggested that there may be nutrient limitations during decomposition (Zou et al. 1995). We know that K+ is typically high in throughfall, both globally and specifically in Luquillo, but have yet to fully understand its role in leaf litter leachate (sources). Litter leachate may be a major link between plant and stream K+. Increases in K+ were observed in both stream and soil solutions following severe droughts and hurricanes in the LEF, which may be a result of increased leaf litter inputs during those weather events (Mcdowell et al 2013; McDowell and Potter 2022). Observations of K+ increased in streams following both hurricanes and droughts (McDowell et al 2013), however in this study we only found a significant positive relationship between K+ and DOC in fresh leaves.
+
+
+The PCA identifies grouping by species that can generally be delineated by leaf mass loss and carbon patterns (Fig. 11). Such grouping is important for understanding species dynamics and species composition in leaf litter processes. For example, species 1, 6, and 7 are all grouped near each other on the positive side of PCA2, while species 3, 8, and 9 are grouped similarly on negative side of PCA 2. Conversely, there seem to be more data points for senesced leaves on the negative side of PCA1, while there is a mix of points from fresh and senesced leaves on the positive side of PCA1.
+
+
+###Ecosystem and global context
+
+
+Based on existing knowledge of species-level leaf elemental composition and litter decomposition rates, results from this study allow us to color the black box of the Luquillo ecosystem by understanding of the role of leaf litter leachate (source). As we continue to investigate hurricane and drought effects on stream ecosystems, and expand our library of data, we rely on viewing the ecosystem as a black box less and are instead starting to fill in an ecosystem box model. Our study uses previously understudied tropical leaf litter leachate data that can be compared to other Luquillo leaf species data, making the Luquillo data library closer to receiving World Heritage designation.
+
+
+Stream chemistry response during and after severe climatic events is a metric of ecosystem function and resilience. Using results from this study alongside existing understanding of elemental composition of leaves (Tamara USFS-IITF Lab), fresh and senesced litterfall patterns (Gutiérrez-Fonseca et al 2020; McDowell et al 2013(??)), and species’ decomposition rates from in-stream litter bags (Crowl and Covich), we can make linkages between terrestrial and stream biogeochemistry under disturbance regimes. Understanding how litter leachate in hurricanes and droughts differ from baseline climate conditions leachate is key to understanding disturbance-initiated biogeochemical cycling across the terrestrial-aquatic interface. Physical traits of the stream during weather disturbances  affect leachate patterns and influence on the stream system. For example, water temperature is typically higher during droughts, perhaps creating an environment conducive for amplified rates of leaching (Gutiérrez-Fonseca et al 2020). In addition, increased retention time due to low flow and discontinuity within the stream during droughts may cause leachate to go through more biological cycling in one location, rather than being transported downstream (Clark et al 2017; Gutiérrez-Fonseca et al 2020). On the other hand, cooler water temperature and rising discharge during hurricane events, as well as elevated groundwater recharge and saturation, may increase the speed of OM movement downstream and decrease the rates of leaching (McDowell et al. 2013). Leaf litter leachate has implications for overall stream chemistry because it introduces dissolved and readily available forms of OM, the fate of which depends on the physical characteristics of the stream (McDowell 2022).
+
+
+Other studies conducted within the LEF provide context for understanding our results. Rates of leaf litter decomposition on the forest floor in the LEF marginally vary between mid-successional forests and mature tabonuco forests, and between similar species analyzed in our study (Zou et al 1995; Fonte and Schowalter 2004). However, the rates of decomposition of similar species in litter bags on the forest floor in LEF were significantly different between senesced and fresh leaves (Fonte and Schowalter 2004). The C:N in green leaf tissue across species (Tamara/USFS-IITF Lab) aligns with the  wide range of C:N in leaf leachate found in this study. Similarly, overall differences in in-stream leaf decomposition and leaf mass loss across species in other studies are similar to the leaf mass loss rates we found across the nine species in our study (Crowl et al. 2006). However, these patterns previously observed in stream litter decomposition experiments do not perfectly reflect individual species’ values in our leachate analysis (Crowl et al. 2006). Specifically, species 3 and 7 appear to experience greater rates of mass loss in our study than in Crowl et al. (2006), which could be partially due to their experiment only using fresh green leaves whereas our study used both green and brown leaves (Fig. 3). Nonetheless, our rates of leaf mass loss during leaching of green leaves for species 3 and 7 are generally higher than those reported in Crowl et al. (2006). (true???? Need actual rate number to compare!!). 
+
+
+Comparing our leaf leachate data to studies conducted in other ecosystems allows us to better understand biome-specific biogeochemical cycling. For example, slow-decomposing leaves, which have higher concentrations of recalcitrant compounds, have been found to leach less DOC than fast-decomposing leaves from various cottonwood species in a temperate ecosystem in Utah (Wymore et al 2015). As green leaves typically have higher concentrations of recalcitrant compounds (source), negative correlations between lignin concentrations and DOC leaching are similar to what we observed in species 2 (La Caro and Rudd 1985; Crowl et al. 2006; Wymore et al 2015). Leachate from senesced and fresh leaves of the same tree species in different temperate ecosystems across the east coast showed that a single species in geographically or genetically separate populations experience senescence in different ways, resulting in different litter leachate chemistry (Hudson et al. 2018). Geographical regions and leaf phenophase (e.g., fresh or senesced in the leaf life cycle) appear to have greater influence than plant species over leachate chemistry (Hudson et al. 2018). Similarly, in this study we found more significant differences in the leaf leachate between fresh and senesced leaves than between leaf species (Fig. 3). The significance of geographic region has implications for understanding litter leachate in different catchments or areas within the El Yunque National Forest, because while they all experience the same climate, we know that there is a variety of bedrock and soil types which could affect how species grow or obtain nutrients (source). Many leachate studies do not analyze leaf leachate for anions and cations, and while we mainly focus on carbon and nitrogen here, we recognize the value of diverse elemental data as seen in Table 2. 
+
+
+Leaf leachate plays an important role in the aquatic food web because DOC and DON fuel microbial growth in freshwater ecosystems. Microbes drive biogeochemical cycling, so understanding what OM is available  for consumption and transformation within the leaf leachate provides insight into stream response to OM inputs from different weather events. Future studies investigating metagenomic data from tropical freshwater streams during hurricanes versus droughts may help identify the role weather events and corresponding OM inputs play in microbial communities. Bacterial community composition may be specific to leaf species, as seen through microbial responses to leaf leachate from different tree species along a freshwater stream in a temperate deciduous forest in Arizona (Wymore et al. 2018). Understanding microbial communities in freshwater streams in the LEF would be beneficial, as patterns in microbial communities may shift with changes in DOC and C:N ratios (source). Previous studies have shown that microbes have greater influence on inorganic nitrogen, while macroinvertebrates, specifically shredders, have stronger effects on DOM (McDowell and Asbury 1994; Crowl et al. 2001). Also, food preference (i.e., leaf litter species) varies by macroinvertebrate species in QP (Covich 1988; Wright and Covich 2005).  In tropical streams, shrimp are important for transport and cycling of nutrients entering the stream through leaf litter, especially during times of low flow. The presence of shrimp in QP increased the retention time of DOC and DON sourcing from leaf litter (Crowl et al. 2001). 
+
+
+
+###References
+
+
+
+
+```{r}
+###setting up the data
+
+## type the path to where your files are saved
+setwd("C:/Users/dixon/Dropbox (Personal)/My PC (DESKTOP-U34IQV9)/Documents/Grad School/Lab/Leaf Leaching")
+
+##upload csv file
+leachate.data <- read.csv("LeafDATA.csv")
+
+
+##loading needed packages
+library(ggplot2)
+library(dplyr)
+library(cowplot)
+library(ggpubr)
+library(rstatix)
+library(stats)
+library(agricolae)
+library(flextable)
+
+
+
+
+## Make a new row
+#create a row called leaf type
+##ifelse statement= if green column values equal 1, assign "green" as new value, if not, assign it brown
+leachate.data$leaftype <- ifelse(leachate.data$Green == 1, "green","brown")
+
+
+#convert integer to character
+leachate.data$Days_Leached <- as.character(leachate.data$Days_Leached)
+str(leachate.data$Days_Leached)
+
+#convert integer to character
+leachate.data$Species <- as.character(leachate.data$Species)
+str(leachate.data$Species)
+
+##Creating new variable column based on leaf type saying "if my leaf type is equal to brown then call my new variable senesced, if its not equal to brown, call it fresh"
+leachate.data$Leaf.Stage= ifelse(leachate.data$leaftype=="brown","Senesced", "Fresh")
+
+
+####Making new rows to fix for detection limits
+#Filter by detection limit and assign 1/2 value
+
+    #TDN = 0.05 	? = 0.025
+    leachate.data$TDN.dl = as.numeric(ifelse(leachate.data$TDN_mgN_g <= 0.05, 0.025, leachate.data$TDN_mgN_g))
+    
+    #NO3 = 0.004	? = 0.002
+    leachate.data$NO3.dl = as.numeric(ifelse(leachate.data$NO3_mgN_g <= 0.005, 0.0025, leachate.data$NO3_mgN_g))
+    
+    #NH4 = 0.004	? = 0.002
+    leachate.data$NH4.dl = as.numeric(ifelse(leachate.data$NH4_mgN_g <= 0.004, 0.002, leachate.data$NH4_mgN_g))
+    
+    #calculating DIN
+    leachate.data$DIN_calc = leachate.data$NH4.dl+leachate.data$NO3.dl
+    
+    #calculating DON
+    leachate.data$DON_calc = leachate.data$TDN.dl-(leachate.data$NO3.dl + leachate.data$NH4.dl)
+    
+    #DON = 0.01 	? = 0.005
+    leachate.data$DON.dl = as.numeric(ifelse(leachate.data$DON_calc <= 0.01, 0.005, leachate.data$DON_calc))
+    
+    #DON/TDN percentage
+    leachate.data$DON_percentage = as.numeric(leachate.data$DON.dl/leachate.data$TDN.dl)*100
+    
+    #PO4 = 0.002 	? = 0.001
+    leachate.data$PO4.dl = as.numeric(ifelse(leachate.data$PO4_mgP_g <= 0.002, 0.001, leachate.data$PO4_mgP_g))
+    
+    #Ca = 0.1 	? = 0.05
+    leachate.data$Ca.dl = as.numeric(ifelse(leachate.data$Ca_mgCa_g <= 0.1, 0.05, leachate.data$Ca_mgCa_g))
+    
+
+#create a new dataframe that just has green leaves or brown leaves
+    green <- leachate.data %>%
+      filter(leaftype == "green")
+    
+    
+    brown <- leachate.data %>%
+      filter(leaftype == "brown")
+
+####Fixing mass loss now
+    ##renaming old percent TML column
+    leachate.data <- leachate.data %>% 
+      rename("TML_old" = "percentTotalMassLost")
+    
+    ##renaming old Mass loss column
+    leachate.data <- leachate.data %>% 
+      rename("ML_mg_old" = "MassLost_mglost_gleaf")
+    
+    #New Mass Loss (mg lost per g of leaf)
+    leachate.data <- leachate.data %>% 
+      mutate(MassLoss = rowSums(leachate.data[ ,c(8, 19, 21:24, 39:41, 44:45)]))
+    
+    #New % Total Mass Loss
+    leachate.data <- leachate.data %>% 
+      mutate(perTML = leachate.data$MassLoss/leachate.data$DryWeight_g/1000*100)
+```
+
+
+```{r}
+####cation and anion averages on day 7####
+  #filter by day 7
+    day7 <- leachate.data %>%
+      filter(Days_Leached == 7)
+    
+  #filter brown
+    day7B <- leachate.data %>%
+      filter(Days_Leached == 7) %>%
+      filter(Leaf.Stage == "Senesced") %>%
+      group_by(Species) %>%
+      summarize(meanCa = mean(Ca.dl), meanCl = mean(Cl_mgCl_g), meanNa = mean(Na_mgNa_g), meanK = mean(K_mgK_g), meanMg = mean(Mg_mgMg_g), meanPO4 = mean(PO4.dl))
+    View(day7B)
+ 
+    
+    
+  #filter green
+    day7G <- leachate.data %>%
+      filter(Days_Leached == 7) %>%
+      filter(Leaf.Stage == "Fresh") %>%
+      group_by(Species) %>%
+      summarize(meanCa = mean(Ca.dl), meanCl = mean(Cl_mgCl_g), meanNa = mean(Na_mgNa_g), meanK = mean(K_mgK_g), meanMg = mean(Mg_mgMg_g), meanPO4 = mean(PO4.dl))
+    View(day7G)
+    
+    
+
+#########C:N (using TDN) #############
+
+##calculating TDN mol with detection limits 
+leachate.data$TDN.dl_mol = leachate.data$TDN.dl/14
+
+##renaming old CN column
+leachate.data <- leachate.data %>% 
+  rename("CN_old" = "CNratio")
+
+##cacluating C:N with correct TDN value
+leachate.data$CNratio = leachate.data$DOC..mol./leachate.data$TDN.dl_mol
+
+
+###make a boxplot for C:N ratio
+ggplot(leachate.data, aes(x=leaftype, y=CNratio)) + geom_boxplot()
+
+##check structure of the relationship/variable
+str(leachate.data$CNratio)
+##came out as characters and we want integer
+#converting character to integer
+leachate.data$CNratio <- as.numeric(leachate.data$CNratio)
+str(leachate.data$CNratio)
+
+#converting interger to chracter
+leachate.data$Days_Leached <- as.factor(leachate.data$Days_Leached)
+str(leachate.data$Days_Leached)
+
+##check structure of the relationship/variable
+str(leachate.data$Species)
+##came out as int and we want character
+#converting interger to chracter
+leachate.data$Species <- as.factor(leachate.data$Species)
+str(leachate.data$Species)
+
+##try again
+###make a boxplot for C:N ratio
+ggplot(leachate.data, aes(x=leaftype, y=CNratio)) + geom_boxplot()+labs(x= "Leaf Type", y= "C:N ratio")
+
+##ANOVA for green leaves
+CNBvG <- lm(CNratio ~ leaftype, leachate.data[!(leachate.data$Species == 8 & leachate.data$Days_Leached == 7),])
+anova(CNBvG)
+#Significant
+
+#facet_wrap groups by leaves 
+ggplot(leachate.data, aes(x=Days_Leached, y=CNratio)) + geom_boxplot() + facet_wrap(~leaftype) + theme_cowplot() +labs(x= "Days Leached", y= "C:N ratio")
+
+##ANOVA for green leaves
+#excluding species 8
+CN.DaysG <- lm(CNratio ~ Days_Leached, green[!(green$Species == 8 & green$Days_Leached == 7),])
+anova(CN.DaysG)
+##Not Significant
+
+##ANOVA for brown leaves
+#excluding species 8
+CN.DaysB <- lm(CNratio ~ Days_Leached, brown[!(brown$Species == 8 & brown$Days_Leached == 7),])
+anova(CN.DaysB)
+##not significant 
+
+
+###make a boxplot
+#facet_wrap groups by species and leaf type 
+ggplot(leachate.data, aes(x=Species, y=CNratio, fill=Leaf.Stage)) + geom_boxplot(outlier.shape = NA) + facet_wrap(~Leaf.Stage) + theme_cowplot() +labs(x= "Species", y= "C:N ratio") + scale_fill_manual(values=c('seagreen','saddlebrown')) + geom_point(aes(shape=Days_Leached), position = position_dodge(width=0.5), alpha = 0.3, size=3) + guides(shape = guide_legend(title = "Days Leached")) + guides(fill = guide_legend(title = "Leaf Stage")) 
+
+#not facet wrapped
+ggplot(leachate.data, aes(x = Species, y = CNratio, fill = Leaf.Stage)) +
+  geom_boxplot(outlier.shape = NA,  width = 0.75) + 
+  theme_cowplot() +labs(x= "Species", y= "C:N ratio") + scale_fill_manual(values=c('seagreen','saddlebrown')) +
+  guides(fill = guide_legend(title = "Leaf Stage")) +
+  geom_point(aes(shape=Days_Leached, group = Leaf.Stage), position = position_dodge(1), alpha = 0.4, size=2) + 
+  guides(shape = guide_legend(title = "Days Leached")) 
+
+###make a boxplot
+#facet_wrap groups by species and leaf type 
+ggplot(leachate.data, aes(x=Species, y=CNratio)) + geom_boxplot() + facet_wrap(~leaftype) + theme_cowplot() +labs(x= "Species", y= "C:N Ratio")
+
+###make a boxplot for green vs brown leaves
+#facet_wrap groups by species 
+ggplot(leachate.data, aes(x=leaftype, y=CNratio)) + geom_boxplot() + facet_wrap(~Species) + theme_cowplot() +labs(x= "Leaf Type", y= "C:N Ratio")
+
+
+
+##ANOVA for species for all days
+##need to filter by species
+s1 <- leachate.data %>%
+  filter(Species == 1)
+s2 <- leachate.data %>%
+  filter(Species == 2)
+s3 <- leachate.data %>%
+  filter(Species == 3)
+s4 <- leachate.data %>%
+  filter(Species == 4)
+s5 <- leachate.data %>%
+  filter(Species == 5)
+s6 <- leachate.data %>%
+  filter(Species == 6)
+s7 <- leachate.data %>%
+  filter(Species == 7)
+s8 <- leachate.data %>%
+  filter(Species == 8)
+s9 <- leachate.data %>%
+  filter(Species == 9)
+
+
+
+#ANOVA for s1
+CN.leaftypes1 <- lm(CNratio ~ leaftype, s1)
+anova(CN.leaftypes1)
+#not significant
+#ANOVA for s2
+CN.leaftypes2 <- lm(CNratio ~ leaftype, s2)
+anova(CN.leaftypes2)
+# significant!!!
+#ANOVA for s3
+CN.leaftypes3 <- lm(CNratio ~ leaftype, s3)
+anova(CN.leaftypes3)
+#significant !!
+#ANOVA for s4
+CN.leaftypes4 <- lm(CNratio ~ leaftype, s4)
+anova(CN.leaftypes4)
+#Not significant
+#ANOVA for s5
+CN.leaftypes5 <- lm(CNratio ~ leaftype, s5)
+anova(CN.leaftypes5)
+#Not significant
+#ANOVA for s6
+CN.leaftypes6 <- lm(CNratio ~ leaftype, s6)
+anova(CN.leaftypes6)
+#Significant
+#ANOVA for s7
+CN.leaftypes7 <- lm(CNratio ~ leaftype, s7)
+anova(CN.leaftypes7)
+#Significant!!
+#######excluding species8
+#ANOVA for s8
+CN.leaftypes8 <- lm(CNratio ~ leaftype, s8)
+anova(CN.leaftypes8)
+#Not Significant
+#ANOVA for s9
+CN.leaftypes9 <- lm(CNratio ~ leaftype, s9)
+anova(CN.leaftypes9)
+#Not Significant
+
+
+
+
+#############################Do each individual day leached separate to look for differences in time
+
+####C:N ratio-----Filter by day 1
+day1 <- leachate.data %>%
+  filter(Days_Leached == 1)
+
+###make a boxplot for percent mass lost due to C after 1 day
+ggplot(day1, aes(x=leaftype, y=CNratio)) + geom_boxplot() +labs(x= "Leaf Type", y= "C:N after 1 day")
+##ANOVA for day 1
+CNratio.Day1 <- lm(CNratio ~ leaftype, day1)
+anova(CNratio.Day1)
+##notsignificant
+
+###make a boxplot for day 1 green vs brown leaves
+#facet_wrap groups by species and leaf type 
+ggplot(day1, aes(x=Species, y=CNratio, fill=Leaf.Stage)) + geom_boxplot() + facet_wrap(~Leaf.Stage) + theme_cowplot() +labs(x= "Species", y= "C:N ratio") + scale_fill_manual(values=c('seagreen','saddlebrown')) + theme(legend.position="none")
+
+#facet_wrap groups by species 
+ggplot(day1, aes(x=leaftype, y=CNratio)) + geom_boxplot() + facet_wrap(~Species) + theme_cowplot() +labs(x= "Leaf Type", y= "C:N after 1 day")
+
+
+
+####C:N ratio-----Filter by day 7
+day7 <- leachate.data %>%
+  filter(Days_Leached == 7)
+
+###make a boxplot for percent mass lost due to C after 7 days
+ggplot(day7, aes(x=leaftype, y=CNratio)) + geom_boxplot() +labs(x= "Leaf Type", y= "C:N after 7 days")
+##ANOVA for day 7
+CNratio.Day7 <- lm(CNratio ~ leaftype, day7[day7$Species !=8,])
+anova(CNratio.Day7)
+##not significant!!!
+
+#####C:N ratio is not significant for any days
+
+###make a boxplot for day 7 green vs brown leaves
+#facet_wrap groups by species and leaf type 
+ggplot(day7, aes(x=Species, y=CNratio, fill=Leaf.Stage)) + geom_boxplot() + facet_wrap(~Leaf.Stage) + theme_cowplot() +labs(x= "Species", y= "C:N ratio") + scale_fill_manual(values=c('seagreen','saddlebrown')) + theme(legend.position="none")
+
+#facet_wrap groups by species 
+ggplot(day7, aes(x=leaftype, y=CNratio)) + geom_boxplot() + facet_wrap(~Species) + theme_cowplot() +labs(x= "Leaf Type", y= "C:N after 7 days")
+
+
+
+##ANOVA for each species 
+##need to filter by species by DAY7
+s1d7 <- day7 %>%
+  filter(Species == 1)
+s2d7 <- day7 %>%
+  filter(Species == 2)
+s3d7 <- day7 %>%
+  filter(Species == 3)
+s4d7 <- day7 %>%
+  filter(Species == 4)
+s5d7 <- day7 %>%
+  filter(Species == 5)
+s6d7 <- day7 %>%
+  filter(Species == 6)
+s7d7 <- day7 %>%
+  filter(Species == 7)
+s8d7 <- day7 %>%
+  filter(Species == 8)
+s9d7 <- day7 %>%
+  filter(Species == 9)
+
+#ANOVA for s1
+CNday7.leaftypes1 <- lm(CNratio ~ leaftype, s1d7)
+anova(CNday7.leaftypes1)
+#significant!!
+#ANOVA for s2
+CNday7.leaftypes2 <- lm(CNratio ~ leaftype, s2d7)
+anova(CNday7.leaftypes2)
+#NOT significant
+#ANOVA for s3
+CNday7.leaftypes3 <- lm(CNratio ~ leaftype, s3d7)
+anova(CNday7.leaftypes3)
+#Significant!!
+#ANOVA for s4
+CNday7.leaftypes4 <- lm(CNratio ~ leaftype, s4d7)
+anova(CNday7.leaftypes4)
+#not Significant!!
+#ANOVA for s5
+CNday7.leaftypes5 <- lm(CNratio ~ leaftype, s5d7)
+anova(CNday7.leaftypes5)
+#significant!!
+#ANOVA for s6
+CNday7.leaftypes6 <- lm(CNratio ~ leaftype, s6d7)
+anova(CNday7.leaftypes6)
+#NOT Significant
+#ANOVA for s7
+CNday7.leaftypes7 <- lm(CNratio ~ leaftype, s7d7)
+anova(CNday7.leaftypes7)
+#Significant!!
+##exclude species 8 for day 7
+#ANOVA for s8
+CNday7.leaftypes8 <- lm(CNratio ~ leaftype, s8d7)
+anova(CNday7.leaftypes8)
+#Not Significant
+#ANOVA for s9
+CNday7.leaftypes9 <- lm(CNratio ~ leaftype, s9d7)
+anova(CNday7.leaftypes9)
+#Not Significant
+
+
+
+
+###LINE GRAPH FOR C:N
+
+
+# Load the required libraries
+library(ggplot2)
+library(tidyr)
+
+# Check if columns are numeric or character and convert if necessary
+leachate.data <- mutate_if(leachate.data, is.factor, as.character)
+
+# Reshape the data from wide to long format
+leachate.data_long <- gather(leachate.data, key = "LeafType", value = "Value", percent_MassLost_C:Percent_MassLost_N)
+
+# Convert the 'Value' column to numeric
+leachate.data_long$Value <- as.numeric(leachate.data_long$Value)
+
+# Plot the lines using ggplot with the reshaped data
+ggplot(leachate.data, aes(x = as.numeric(leachate.data$Days_Leached), y = CNratio, color = as.factor(leachate.data$Species))) +
+  geom_point()
+
+
+##Creating new variable column based on leaf type saying "if my leaf type is equal to brown then call my new variable senesced, if its not equal to brown, call it fresh"
+leachate.data$Leaf.Stage= ifelse(leachate.data$leaftype=="brown","Senesced", "Fresh")
+
+##THIS GRAPH##
+##trying to facet by species
+ggplot(leachate.data, aes(x = as.numeric(leachate.data$Days_Leached), y = CNratio, color=Leaf.Stage)) +
+  geom_point() + 
+  scale_color_manual(values=c('seagreen','saddlebrown')) +
+  guides(color = guide_legend(title = "Leaf Type")) +
+  geom_smooth(method= "lm", se=FALSE) + 
+  scale_x_continuous(breaks=c(0,1,3,7)) +
+  theme_bw() +
+  labs(x= "Days Leached", y= "C:N") +
+  facet_wrap(~Species) 
+
+
+######Linear regression stats
+
+##checking if Days Leached is a number or character
+str(leachate.data$Days_Leached)
+
+##chnaging Days Lreached to be numeric
+leachate.data$Days_Leached <- as.numeric(leachate.data$Days_Leached)
+str(leachate.data$Days_Leached)
+
+##need to filter by species and leaf type
+s1 <- leachate.data %>%
+  filter(Species == 1)
+s2 <- leachate.data %>%
+  filter(Species == 2)
+s3 <- leachate.data %>%
+  filter(Species == 3)
+s4 <- leachate.data %>%
+  filter(Species == 4)
+s5 <- leachate.data %>%
+  filter(Species == 5)
+s6 <- leachate.data %>%
+  filter(Species == 6)
+s7 <- leachate.data %>%
+  filter(Species == 7)
+s8 <- leachate.data %>%
+  filter(Species == 8)
+s9 <- leachate.data %>%
+  filter(Species == 9)
+
+#filtering each species brown only
+s1B <- s1 %>%
+  filter(leaftype == "brown")
+s2B <- s2 %>%
+  filter(leaftype == "brown")
+s3B <- s3 %>%
+  filter(leaftype == "brown")
+s4B <- s4 %>%
+  filter(leaftype == "brown")
+s5B <- s5 %>%
+  filter(leaftype == "brown")
+s6B <- s6 %>%
+  filter(leaftype == "brown")
+s7B <- s7 %>%
+  filter(leaftype == "brown")
+s8B <- s8 %>%
+  filter(leaftype == "brown")
+s9B <- s9 %>%
+  filter(leaftype == "brown")
+
+#filtering each species green only
+s1G <- s1 %>%
+  filter(leaftype == "green")
+s2G <- s2 %>%
+  filter(leaftype == "green")
+s3G <- s3 %>%
+  filter(leaftype == "green")
+s4G <- s4 %>%
+  filter(leaftype == "green")
+s5G <- s5 %>%
+  filter(leaftype == "green")
+s6G <- s6 %>%
+  filter(leaftype == "green")
+s7G <- s7 %>%
+  filter(leaftype == "green")
+s8G <- s8 %>%
+  filter(leaftype == "green")
+s9G <- s9 %>%
+  filter(leaftype == "green")
+
+
+
+
+##linear regression for species 1 Brown
+lm_s1B_CN = lm(formula = CNratio ~ Days_Leached, data =s1B)
+summary(lm_s1B_CN)
+##linear regression for species 1 Green
+lm_s1G_CN = lm(formula = CNratio ~ Days_Leached, data =s1G)
+summary(lm_s1G_CN)
+
+##linear regression for species 2 Brown
+lm_s2B_CN = lm(formula = CNratio ~ Days_Leached, data =s2B)
+summary(lm_s2B_CN)
+##linear regression for species 2 Green
+lm_s2G_CN = lm(formula = CNratio ~ Days_Leached, data =s2G)
+summary(lm_s2G_CN)
+
+##linear regression for species 3 Brown
+lm_s3B_CN = lm(formula = CNratio ~ Days_Leached, data =s3B)
+summary(lm_s3B_CN)
+##linear regression for species 3 Green
+lm_s3G_CN = lm(formula = CNratio ~ Days_Leached, data =s3G)
+summary(lm_s3G_CN)
+
+##linear regression for species 4 Brown
+lm_s4B_CN = lm(formula = CNratio ~ Days_Leached, data =s4B)
+summary(lm_s4B_CN)
+##linear regression for species 4 Green
+lm_s4G_CN = lm(formula = CNratio ~ Days_Leached, data =s4G)
+summary(lm_s4G_CN)
+
+##linear regression for species 5 Brown
+lm_s5B_CN = lm(formula = CNratio ~ Days_Leached, data =s5B)
+summary(lm_s5B_CN)
+##linear regression for species 5 Green
+lm_s5G_CN = lm(formula = CNratio ~ Days_Leached, data =s5G)
+summary(lm_s5G_CN)
+
+##linear regression for species 6 Brown
+lm_s6B_CN = lm(formula = CNratio ~ Days_Leached, data =s6B)
+summary(lm_s6B_CN)
+##linear regression for species 6 Green
+lm_s6G_CN = lm(formula = CNratio ~ Days_Leached, data =s6G)
+summary(lm_s6G_CN)
+
+##linear regression for species 7 Brown
+lm_s7B_CN = lm(formula = CNratio ~ Days_Leached, data =s7B)
+summary(lm_s7B_CN)
+##linear regression for species 7 Green
+lm_s7G_CN = lm(formula = CNratio ~ Days_Leached, data =s7G)
+summary(lm_s7G_CN)
+
+##linear regression for species 8 Brown
+lm_s8B_CN = lm(formula = CNratio ~ Days_Leached, data =s8B)
+summary(lm_s8B_CN)
+##linear regression for species 8 Green
+lm_s8G_CN = lm(formula = CNratio ~ Days_Leached, data =s8G)
+summary(lm_s8G_CN)
+
+##linear regression for species 9 Brown
+lm_s9B_CN = lm(formula = CNratio ~ Days_Leached, data =s9B)
+summary(lm_s9B_CN)
+##linear regression for species 9 Green
+lm_s9G_CN = lm(formula = CNratio ~ Days_Leached, data =s9G)
+summary(lm_s9G_CN)
+
+
+
+####DON####
+
+
+##making a boxplot for all species and leaf types
+ggplot(leachate.data, aes(x = Species, y = DON_percentage, fill = Leaf.Stage)) +
+  geom_boxplot(outlier.shape = NA,  width = 0.75) + 
+  theme_cowplot() +labs(x= "Species", y= "DON/TDN percentage") + scale_fill_manual(values=c('seagreen','saddlebrown')) +
+  guides(fill = guide_legend(title = "Leaf Stage")) +
+  geom_point(aes(shape=Days_Leached, group = Leaf.Stage), position = position_dodge(1), alpha = 0.4, size=2) + 
+  guides(shape = guide_legend(title = "Days Leached")) 
+
+
+########DOC######
+
+###make a boxplot for DOC
+ggplot(leachate.data, aes(x=Leaf.Stage, y=NPOC_mgC_g, fill=Leaf.Stage)) + geom_boxplot() + theme_cowplot() +labs(x= "Leaf Type", y= "DOC mg C/g leaf") + scale_fill_manual(values=c('seagreen','saddlebrown'))
+
+##ANOVA for green leaves
+DOCBvG <- lm(NPOC_mgC_g ~ leaftype, leachate.data[!(leachate.data$Species == 8 & leachate.data$Days_Leached == 7),])
+anova(DOCBvG)
+#Significant!
+
+###make a boxplot for DOC
+#facet_wrap groups by leaves 
+ggplot(leachate.data, aes(x=Days_Leached, y=NPOC_mgC_g)) + geom_boxplot() + facet_wrap(~leaftype) + theme_cowplot() +labs(x= "Days Leached", y= "DOC mg C/g leaf")
+
+##ANOVA for green leaves
+DOC.DaysLeachedsG <- lm(NPOC_mgC_g ~ Days_Leached, green[!(green$Species == 8 & green$Days_Leached == 7),])
+anova(DOC.DaysLeachedsG)
+#not significant
+
+##ANOVA for brown leaves
+DOC.DaysLeachedsB <- lm(NPOC_mgC_g ~ Days_Leached, brown[!(brown$Species == 8 & brown$Days_Leached == 7),])
+anova(DOC.DaysLeachedsB)
+##not significant
+
+#convert integer to character
+leachate.data$Species <- as.character(leachate.data$Species)
+str(leachate.data$Species)
+
+
+###make a boxplot
+ggplot(leachate.data, aes(x = Species, y = NPOC_mgC_g, fill = Leaf.Stage)) +
+  geom_boxplot(outlier.shape = NA,  width = 0.75) + 
+  theme_cowplot() +labs(x= "Species", y= "Dissolved organic carbon (DOC) mg C/g leaf") + scale_fill_manual(values=c('seagreen','saddlebrown')) +
+   guides(fill = guide_legend(title = "Leaf Stage")) +
+  geom_point(aes(shape=Days_Leached, group = Leaf.Stage), position = position_dodge(1), alpha = 0.4, size=2) + 
+  guides(shape = guide_legend(title = "Days Leached")) +
+  theme(legend.text = element_text(size = 20),
+        axis.text = element_text(size = 24),
+        axis.title = element_text(size = 24),
+        legend.title = element_text(size = 20)) ###text size for agu
+
+
+#facet_wrap groups by species and Days Leached 
+ggplot(leachate.data, aes(x=Species, y=NPOC_mgC_g, fill=Leaf.Stage)) + geom_boxplot(outlier.shape = NA) + facet_wrap(~Days_Leached) + theme_cowplot() +labs(x= "Species", y= "DOC mg C/g leaf") + scale_fill_manual(values=c('seagreen','saddlebrown')) + geom_point(aes(shape=Days_Leached), position = position_dodge(width=0.5), alpha = 0.3, size=2) + guides(shape = guide_legend(title = "Days Leached")) + guides(fill = guide_legend(title = "Leaf Stage")) 
+
+#facet_wrap groups by species and Days Leached for just green leaves
+ggplot(green, aes(x=Species, y=NPOC_mgC_g, fill=Days_Leached)) +
+  geom_boxplot(outlier.shape = NA) +
+  theme_cowplot() +labs(x= "Species", y= "DOC mg C/g leaf") + 
+  scale_fill_manual(values=c('palegreen','mediumseagreen', 'darkgreen')) +
+  geom_point(aes(shape=Days_Leached), position = position_dodge(width=0.5), alpha = 0.3, size=2) + 
+  guides(shape = guide_legend(title = "Days Leached")) 
+
+#facet_wrap groups by species and Days Leached for just brown leaves
+ggplot(brown, aes(x=Species, y=NPOC_mgC_g, fill=Days_Leached)) +
+  geom_boxplot(outlier.shape = NA) + 
+  theme_cowplot() +labs(x= "Species", y= "DOC mg C/g leaf") + 
+  scale_fill_manual(values=c('tan','peru', 'chocolate4')) +
+  geom_point(aes(shape=Days_Leached), position = position_dodge(width=0.5), alpha = 0.3, size=2) + 
+  guides(shape = guide_legend(title = "Days Leached")) 
+
+
+#facet_wrap groups by species 
+ggplot(leachate.data, aes(x=leaftype, y=NPOC_mgC_g)) + geom_boxplot() + facet_wrap(~Species) + theme_cowplot() +labs(x= "Leaf Type", y= "DOC mg C/g leaf")
+
+
+
+##ANOVA for species 
+##need to filter by species
+s1 <- leachate.data %>%
+  filter(Species == 1)
+s2 <- leachate.data %>%
+  filter(Species == 2)
+s3 <- leachate.data %>%
+  filter(Species == 3)
+s4 <- leachate.data %>%
+  filter(Species == 4)
+s5 <- leachate.data %>%
+  filter(Species == 5)
+s6 <- leachate.data %>%
+  filter(Species == 6)
+s7 <- leachate.data %>%
+  filter(Species == 7)
+s8 <- leachate.data %>%
+  filter(Species == 8)
+s9 <- leachate.data %>%
+  filter(Species == 9)
+
+
+#ANOVA for s1
+DOC.leaftypes1 <- lm(NPOC_mgC_g ~ leaftype, s1)
+anova(DOC.leaftypes1)
+#not significant
+#ANOVA for s2
+DOC.leaftypes2 <- lm(NPOC_mgC_g ~ leaftype, s2)
+anova(DOC.leaftypes2)
+#not significant
+#ANOVA for s3
+DOC.leaftypes3 <- lm(NPOC_mgC_g ~ leaftype, s3)
+anova(DOC.leaftypes3)
+#Significant!!
+#ANOVA for s4
+DOC.leaftypes4 <- lm(NPOC_mgC_g ~ leaftype, s4)
+anova(DOC.leaftypes4)
+#Significant!!
+#ANOVA for s5
+DOC.leaftypes5 <- lm(NPOC_mgC_g ~ leaftype, s5)
+anova(DOC.leaftypes5)
+#Significant!!
+#ANOVA for s6
+DOC.leaftypes6 <- lm(NPOC_mgC_g ~ leaftype, s6)
+anova(DOC.leaftypes6)
+#Significant!!
+#ANOVA for s7
+DOC.leaftypes7 <- lm(NPOC_mgC_g ~ leaftype, s7)
+anova(DOC.leaftypes7)
+#Significant!!
+####exclude species 8 because of day 7 data
+#ANOVA for s8
+DOC.leaftypes8 <- lm(NPOC_mgC_g ~ leaftype, s8[s8$Days_Leached !=7,])
+anova(DOC.leaftypes8)
+#Significant!!
+#ANOVA for s9
+DOC.leaftypes9 <- lm(NPOC_mgC_g ~ leaftype, s9)
+anova(DOC.leaftypes9)
+#Significant!!
+
+
+
+
+
+###make a boxplot for DOC after 7 days
+ggplot(day7, aes(x=leaftype, y=NPOC_mgC_g)) + geom_boxplot() +labs(x= "Leaf Type", y= "DOC after 7 days")
+##ANOVA for day 7
+DOC.Day7 <- lm(NPOC_mgC_g ~ leaftype, day7[day7$Species !=8,])
+anova(DOC.Day7)
+##Significant!
+
+###make a boxplot for day 7 green vs brown leaves
+#facet_wrap groups by species and leaf type 
+ggplot(day7, aes(x=Species, y=NPOC_mgC_g, fill=Leaf.Stage)) + geom_boxplot() + facet_wrap(~Leaf.Stage) + theme_cowplot() +labs(x= "Species", y= "DOC mg C/g leaf after 7 days") + scale_fill_manual(values=c('seagreen','saddlebrown')) + theme(legend.position="none")
+
+#facet_wrap groups by species 
+ggplot(day7, aes(x=leaftype, y=NPOC_mgC_g)) + geom_boxplot() + facet_wrap(~Species) + theme_cowplot() +labs(x= "Leaf Type", y= "DOC day 7")
+
+
+##ANOVA for each species DAY 7
+##need to filter by species by DAY7
+s1d7 <- day7 %>%
+  filter(Species == 1)
+s2d7 <- day7 %>%
+  filter(Species == 2)
+s3d7 <- day7 %>%
+  filter(Species == 3)
+s4d7 <- day7 %>%
+  filter(Species == 4)
+s5d7 <- day7 %>%
+  filter(Species == 5)
+s6d7 <- day7 %>%
+  filter(Species == 6)
+s7d7 <- day7 %>%
+  filter(Species == 7)
+s8d7 <- day7 %>%
+  filter(Species == 8)
+s9d7 <- day7 %>%
+  filter(Species == 9)
+
+#ANOVA for s1
+DOCday7.leaftypes1 <- lm(NPOC_mgC_g ~ leaftype, s1d7)
+anova(DOCday7.leaftypes1)
+# significant!
+#ANOVA for s2
+DOCday7.leaftypes2 <- lm(NPOC_mgC_g ~ leaftype, s2d7)
+anova(DOCday7.leaftypes2)
+#NOT significant
+#ANOVA for s3
+DOCday7.leaftypes3 <- lm(NPOC_mgC_g ~ leaftype, s3d7)
+anova(DOCday7.leaftypes3)
+#not Significant
+#ANOVA for s4
+DOCday7.leaftypes4 <- lm(NPOC_mgC_g ~ leaftype, s4d7)
+anova(DOCday7.leaftypes4)
+#NOT Significant
+#ANOVA for s5
+DOCday7.leaftypes5 <- lm(NPOC_mgC_g ~ leaftype, s5d7)
+anova(DOCday7.leaftypes5)
+#Significant!!
+#ANOVA for s6
+DOCday7.leaftypes6 <- lm(NPOC_mgC_g ~ leaftype, s6d7)
+anova(DOCday7.leaftypes6)
+#Significant!!
+#ANOVA for s7
+DOCday7.leaftypes7 <- lm(NPOC_mgC_g ~ leaftype, s7d7)
+anova(DOCday7.leaftypes7)
+#Significant!!
+###Excluding species 8 because of day 7 data
+#ANOVA for s8
+DOCday7.leaftypes8 <- lm(NPOC_mgC_g ~ leaftype, s8d7)
+anova(DOCday7.leaftypes8)
+#Significant!!
+#ANOVA for s9
+DOCday7.leaftypes9 <- lm(NPOC_mgC_g ~ leaftype, s9d7)
+anova(DOCday7.leaftypes9)
+#Significant!!
+
+
+
+######LINE GRAPH FOR DOC
+
+# Load the required libraries
+library(ggplot2)
+library(tidyr)
+
+# Check if columns are numeric or character and convert if necessary
+leachate.data <- mutate_if(leachate.data, is.factor, as.character)
+
+##Creating new variable column based on leaf type saying "if my leaf type is equal to brown then call my new variable senesced, if its not equal to brown, call it fresh"
+leachate.data$Leaf.Stage= ifelse(leachate.data$leaftype=="brown","Senesced", "Fresh")
+
+##THIS GRAPH##
+##trying to facet by species
+ggplot(leachate.data, aes(x = as.numeric(leachate.data$Days_Leached), y = NPOC_mgC_g, color=Leaf.Stage)) +
+  geom_point() + 
+  scale_color_manual(values=c('seagreen','saddlebrown')) +
+  guides(color = guide_legend(title = "Leaf Type")) +
+  geom_smooth(method= "lm", se=FALSE) + 
+  scale_x_continuous(breaks=c(0,1,3,7)) +
+  theme_bw() +
+  labs(x= "Days Leached", y= "DOC mg C/g leaf") +
+  facet_wrap(~Species) 
+
+
+
+###only species 3 
+s3 <- leachate.data %>%
+  filter(Species == 3)
+
+
+ggplot(s3, aes(x = as.numeric(Days_Leached), y = NPOC_mgC_g, color=Leaf.Stage)) +
+  geom_point() + 
+  scale_color_manual(values=c('seagreen','saddlebrown')) +
+  ggtitle("Species 3") +
+  guides(color = guide_legend(title = "Leaf Type")) +
+  geom_smooth(method= "lm", se=FALSE) + 
+  scale_x_continuous(breaks=c(0,1,3,7)) +
+  theme_bw() +
+  labs(x= "Days Leached", y= "DOC mg C/g leaf") +
+  theme(legend.text = element_text(size = 20),
+        axis.text = element_text(size = 24),
+        axis.title = element_text(size = 24),
+        legend.title = element_text(size = 20),
+        title = element_text(size=24)) ###text size for agu
+
+
+
+
+
+##checking if Days Leached is a number or character
+str(leachate.data$Days_Leached)
+
+##chnaging Days Lreached to be numeric
+leachate.data$Days_Leached <- as.numeric(leachate.data$Days_Leached)
+str(leachate.data$Days_Leached)
+
+##need to filter by species and leaf type
+s1 <- leachate.data %>%
+  filter(Species == 1)
+s2 <- leachate.data %>%
+  filter(Species == 2)
+s3 <- leachate.data %>%
+  filter(Species == 3)
+s4 <- leachate.data %>%
+  filter(Species == 4)
+s5 <- leachate.data %>%
+  filter(Species == 5)
+s6 <- leachate.data %>%
+  filter(Species == 6)
+s7 <- leachate.data %>%
+  filter(Species == 7)
+s8 <- leachate.data %>%
+  filter(Species == 8)
+s9 <- leachate.data %>%
+  filter(Species == 9)
+
+#filtering each species brown only
+s1B <- s1 %>%
+  filter(leaftype == "brown")
+s2B <- s2 %>%
+  filter(leaftype == "brown")
+s3B <- s3 %>%
+  filter(leaftype == "brown")
+s4B <- s4 %>%
+  filter(leaftype == "brown")
+s5B <- s5 %>%
+  filter(leaftype == "brown")
+s6B <- s6 %>%
+  filter(leaftype == "brown")
+s7B <- s7 %>%
+  filter(leaftype == "brown")
+s8B <- s8 %>%
+  filter(leaftype == "brown")
+s9B <- s9 %>%
+  filter(leaftype == "brown")
+
+#filtering each species green only
+s1G <- s1 %>%
+  filter(leaftype == "green")
+s2G <- s2 %>%
+  filter(leaftype == "green")
+s3G <- s3 %>%
+  filter(leaftype == "green")
+s4G <- s4 %>%
+  filter(leaftype == "green")
+s5G <- s5 %>%
+  filter(leaftype == "green")
+s6G <- s6 %>%
+  filter(leaftype == "green")
+s7G <- s7 %>%
+  filter(leaftype == "green")
+s8G <- s8 %>%
+  filter(leaftype == "green")
+s9G <- s9 %>%
+  filter(leaftype == "green")
+
+
+
+
+##linear regression for species 1 Brown
+lm_s1B_DOC = lm(formula = NPOC_mgC_g ~ Days_Leached, data =s1B)
+summary(lm_s1B_DOC)
+##linear regression for species 1 Green
+lm_s1G_DOC = lm(formula = NPOC_mgC_g ~ Days_Leached, data =s1G)
+summary(lm_s1G_DOC)
+
+##linear regression for species 2 Brown
+lm_s2B_DOC = lm(formula = NPOC_mgC_g ~ Days_Leached, data =s2B)
+summary(lm_s2B_DOC)
+##linear regression for species 2 Green
+lm_s2G_DOC = lm(formula = NPOC_mgC_g ~ Days_Leached, data =s2G)
+summary(lm_s2G_DOC)
+
+##linear regression for species 3 Brown
+lm_s3B_DOC = lm(formula = NPOC_mgC_g ~ Days_Leached, data =s3B)
+summary(lm_s3B_DOC)
+6.9##linear regression for species 3 Green
+lm_s3G_DOC = lm(formula = NPOC_mgC_g ~ Days_Leached, data =s3G)
+summary(lm_s3G_DOC)
+
+##linear regression for species 4 Brown
+lm_s4B_DOC = lm(formula = NPOC_mgC_g ~ Days_Leached, data =s4B)
+summary(lm_s4B_DOC)
+##linear regression for species 4 Green
+lm_s4G_DOC = lm(formula = NPOC_mgC_g ~ Days_Leached, data =s4G)
+summary(lm_s4G_DOC)
+
+##linear regression for species 5 Brown
+lm_s5B_DOC = lm(formula = NPOC_mgC_g ~ Days_Leached, data =s5B)
+summary(lm_s5B_DOC)
+##linear regression for species 5 Green
+lm_s5G_DOC = lm(formula = NPOC_mgC_g ~ Days_Leached, data =s5G)
+summary(lm_s5G_DOC)
+
+##linear regression for species 6 Brown
+lm_s6B_DOC = lm(formula = NPOC_mgC_g ~ Days_Leached, data =s6B)
+summary(lm_s6B_DOC)
+##linear regression for species 6 Green
+lm_s6G_DOC = lm(formula = NPOC_mgC_g ~ Days_Leached, data =s6G)
+summary(lm_s6G_DOC)
+
+##linear regression for species 7 Brown
+lm_s7B_DOC = lm(formula = NPOC_mgC_g ~ Days_Leached, data =s7B)
+summary(lm_s7B_DOC)
+##linear regression for species 7 Green
+lm_s7G_DOC = lm(formula = NPOC_mgC_g ~ Days_Leached, data =s7G)
+summary(lm_s7G_DOC)
+
+##linear regression for species 8 Brown
+lm_s8B_DOC = lm(formula = NPOC_mgC_g ~ Days_Leached, data =s8B)
+summary(lm_s8B_DOC)
+##linear regression for species 8 Green
+lm_s8G_DOC = lm(formula = NPOC_mgC_g ~ Days_Leached, data =s8G)
+summary(lm_s8G_DOC)
+
+##linear regression for species 9 Brown
+lm_s9B_DOC = lm(formula = NPOC_mgC_g ~ Days_Leached, data =s9B)
+summary(lm_s9B_DOC)
+##linear regression for species 9 Green
+lm_s9G_DOC = lm(formula = NPOC_mgC_g ~ Days_Leached, data =s9G)
+summary(lm_s9G_DOC)
+#######total mass lost######
+###make a boxplot for percent total mass loss
+ggplot(leachate.data, aes(x=leaftype, y=perTML)) + geom_boxplot()+labs(x= "Days Leached", y= "% total mass lost")
+
+
+
+###make a boxplot
+#convert integer to character
+leachate.data$Species <- as.character(leachate.data$Species)
+str(leachate.data$Species)
+
+ggplot(leachate.data, aes(x = Species, y = perTML, fill = Leaf.Stage)) +
+  geom_boxplot(outlier.shape = NA,  width = 0.75) + 
+  theme_cowplot() +labs(x= "Species", y= "% Total Mass Lost") + scale_fill_manual(values=c('seagreen','saddlebrown')) +
+  guides(fill = guide_legend(title = "Leaf Stage")) +
+  geom_point(aes(shape=Days_Leached, group = Leaf.Stage), position = position_dodge(1), alpha = 0.4, size=2) + 
+  guides(shape = guide_legend(title = "Days Leached")) +
+  theme(legend.text = element_text(size = 20),
+        axis.text = element_text(size = 24),
+        axis.title = element_text(size = 24),
+        legend.title = element_text(size = 20)) ###text size for agu
+  
+
+#facet_wrap groups by species and leaf type 
+ggplot(leachate.data, aes(x=Species, y=perTML, fill=Leaf.Stage)) + geom_boxplot(outlier.shape = NA) + facet_wrap(~Leaf.Stage) + theme_cowplot() +labs(x= "Species", y= "% Total Mass Lost") + scale_fill_manual(values=c('seagreen','saddlebrown')) + geom_point(aes(shape=Days_Leached), position = position_dodge(width=1), alpha = 0.3, size=3) + guides(shape = guide_legend(title = "Days Leached")) + guides(fill = guide_legend(title = "Leaf Stage")) 
+
+
+##ANOVA for species 
+##need to filter by species
+s1 <- leachate.data %>%
+  filter(Species == 1)
+s2 <- leachate.data %>%
+  filter(Species == 2)
+s3 <- leachate.data %>%
+  filter(Species == 3)
+s4 <- leachate.data %>%
+  filter(Species == 4)
+s5 <- leachate.data %>%
+  filter(Species == 5)
+s6 <- leachate.data %>%
+  filter(Species == 6)
+s7 <- leachate.data %>%
+  filter(Species == 7)
+s8 <- leachate.data %>%
+  filter(Species == 8)
+s9 <- leachate.data %>%
+  filter(Species == 9)
+
+
+#ANOVA for s1
+TML.leaftypes1 <- lm(perTML ~ leaftype, s1)
+anova(TML.leaftypes1)
+#not significant
+#ANOVA for s2
+TML.leaftypes2 <- lm(perTML ~ leaftype, s2)
+anova(TML.leaftypes2)
+#not significant
+#ANOVA for s3
+TML.leaftypes3 <- lm(perTML ~ leaftype, s3)
+anova(TML.leaftypes3)
+#Significant!!
+#ANOVA for s4
+TML.leaftypes4 <- lm(perTML ~ leaftype, s4)
+anova(TML.leaftypes4)
+#significant!!
+#ANOVA for s5
+TML.leaftypes5 <- lm(perTML ~ leaftype, s5)
+anova(TML.leaftypes5)
+#Significant!!
+#ANOVA for s6
+TML.leaftypes6 <- lm(perTML ~ leaftype, s6)
+anova(TML.leaftypes6)
+#Not significant
+#ANOVA for s7
+TML.leaftypes7 <- lm(perTML ~ leaftype, s7)
+anova(TML.leaftypes7)
+#Significant!!
+#####exclude species 8??
+#ANOVA for s8
+TML.leaftypes8 <- lm(perTML ~ leaftype, s8[s8$Days_Leached !=7,])
+anova(TML.leaftypes8)
+#Significant!!
+#ANOVA for s9
+TML.leaftypes9 <- lm(perTML ~ leaftype, s9)
+anova(TML.leaftypes9)
+#significant!!
+
+
+
+#######DAY 7
+day7 <- leachate.data %>%
+  filter(Days_Leached == 7)
+
+###make a boxplot for DOC after 7 days
+ggplot(day7, aes(x=leaftype, y=perTML)) + geom_boxplot() +labs(x= "Leaf Type", y= "% Total Mass Loss after 7 days")
+##ANOVA for day 7
+TML.Day7 <- lm(perTML ~ leaftype, day7[day7$Species !=8,])
+anova(TML.Day7)
+##Significant!
+
+###make a boxplot for day 7 green vs brown leaves
+#facet_wrap groups by species 
+ggplot(day7, aes(x=leaftype, y=perTML)) + geom_boxplot() + facet_wrap(~Species) + theme_cowplot() +labs(x= "Leaf Type", y= "% Total Mass Loss day 7")
+
+
+##ANOVA for each species DAY 7
+##need to filter by species by DAY7
+s1d7 <- day7 %>%
+  filter(Species == 1)
+s2d7 <- day7 %>%
+  filter(Species == 2)
+s3d7 <- day7 %>%
+  filter(Species == 3)
+s4d7 <- day7 %>%
+  filter(Species == 4)
+s5d7 <- day7 %>%
+  filter(Species == 5)
+s6d7 <- day7 %>%
+  filter(Species == 6)
+s7d7 <- day7 %>%
+  filter(Species == 7)
+s8d7 <- day7 %>%
+  filter(Species == 8)
+s9d7 <- day7 %>%
+  filter(Species == 9)
+
+
+#ANOVA for s1
+TMLday7.leaftypes1 <- lm(perTML ~ leaftype, s1d7)
+anova(TMLday7.leaftypes1)
+#significant!
+#ANOVA for s2
+TMLday7.leaftypes2 <- lm(perTML ~ leaftype, s2d7)
+anova(TMLday7.leaftypes2)
+#NOT significant
+#ANOVA for s3
+TMLday7.leaftypes3 <- lm(perTML ~ leaftype, s3d7)
+anova(TMLday7.leaftypes3)
+#not Significant
+#ANOVA for s4
+TMLday7.leaftypes4 <- lm(perTML ~ leaftype, s4d7)
+anova(TMLday7.leaftypes4)
+#NOT Significant
+#ANOVA for s5
+TMLday7.leaftypes5 <- lm(perTML ~ leaftype, s5d7)
+anova(TMLday7.leaftypes5)
+#NOT significant!!
+#ANOVA for s6
+TMLday7.leaftypes6 <- lm(perTML ~ leaftype, s6d7)
+anova(TMLday7.leaftypes6)
+#Significant
+#ANOVA for s7
+TMLday7.leaftypes7 <- lm(perTML ~ leaftype, s7d7)
+anova(TMLday7.leaftypes7)
+#Significant!!
+####excluding species 8 because of day 7 data
+##Excluding species 8
+#ANOVA for s8
+TMLday7.leaftypes8 <- lm(perTML ~ leaftype, s8d7)
+anova(TMLday7.leaftypes8)
+#Significant!!
+#ANOVA for s9
+TMLday7.leaftypes9 <- lm(perTML ~ leaftype, s9d7)
+anova(TMLday7.leaftypes9)
+#Significant!!
+
+
+
+###LINE GRAPH FOR TMS
+
+# Load the required libraries
+library(ggplot2)
+library(tidyr)
+
+# Check if columns are numeric or character and convert if necessary
+leachate.data <- mutate_if(leachate.data, is.factor, as.character)
+
+
+##Creating new variable column based on leaf type saying "if my leaf type is equal to brown then call my new variable senesced, if its not equal to brown, call it fresh"
+leachate.data$Leaf.Stage= ifelse(leachate.data$leaftype=="brown","Senesced", "Fresh")
+
+##THIS GRAPH##
+ggplot(leachate.data, aes(x = as.numeric(leachate.data$Days_Leached), y = perTML, color=Leaf.Stage)) +
+  geom_point() + 
+  scale_color_manual(values=c('seagreen','saddlebrown')) +
+  guides(color = guide_legend(title = "Leaf Type")) +
+  geom_smooth(method= "lm", se=FALSE) + 
+  scale_x_continuous(breaks=c(0,1,3,7)) +
+  theme_bw() +
+  labs(x= "Days Leached", y= "Total Mass Lost (%)")
+
+##trying to facet by species
+ggplot(leachate.data, aes(x = as.numeric(leachate.data$Days_Leached), y = perTML, color=Leaf.Stage)) +
+  geom_point() + 
+  scale_color_manual(values=c('seagreen','saddlebrown')) +
+  guides(color = guide_legend(title = "Leaf Type")) +
+  geom_smooth(method= "lm", se=FALSE) + 
+  scale_x_continuous(breaks=c(0,1,3,7)) +
+  theme_bw() +
+  labs(x= "Days Leached", y= "Total Mass Lost (%)") +
+  facet_wrap(~Species) 
+
+
+##checking if Days Leached is a number or character
+str(leachate.data$Days_Leached)
+
+##chnaging Days Lreached to be numeric
+leachate.data$Days_Leached <- as.numeric(leachate.data$Days_Leached)
+str(leachate.data$Days_Leached)
+
+##need to filter by species and leaf type
+s1 <- leachate.data %>%
+  filter(Species == 1)
+s2 <- leachate.data %>%
+  filter(Species == 2)
+s3 <- leachate.data %>%
+  filter(Species == 3)
+s4 <- leachate.data %>%
+  filter(Species == 4)
+s5 <- leachate.data %>%
+  filter(Species == 5)
+s6 <- leachate.data %>%
+  filter(Species == 6)
+s7 <- leachate.data %>%
+  filter(Species == 7)
+s8 <- leachate.data %>%
+  filter(Species == 8)
+s9 <- leachate.data %>%
+  filter(Species == 9)
+
+#filtering each species brown only
+s1B <- s1 %>%
+  filter(leaftype == "brown")
+s2B <- s2 %>%
+  filter(leaftype == "brown")
+s3B <- s3 %>%
+  filter(leaftype == "brown")
+s4B <- s4 %>%
+  filter(leaftype == "brown")
+s5B <- s5 %>%
+  filter(leaftype == "brown")
+s6B <- s6 %>%
+  filter(leaftype == "brown")
+s7B <- s7 %>%
+  filter(leaftype == "brown")
+s8B <- s8 %>%
+  filter(leaftype == "brown")
+s9B <- s9 %>%
+  filter(leaftype == "brown")
+
+#filtering each species green only
+s1G <- s1 %>%
+  filter(leaftype == "green")
+s2G <- s2 %>%
+  filter(leaftype == "green")
+s3G <- s3 %>%
+  filter(leaftype == "green")
+s4G <- s4 %>%
+  filter(leaftype == "green")
+s5G <- s5 %>%
+  filter(leaftype == "green")
+s6G <- s6 %>%
+  filter(leaftype == "green")
+s7G <- s7 %>%
+  filter(leaftype == "green")
+s8G <- s8 %>%
+  filter(leaftype == "green")
+s9G <- s9 %>%
+  filter(leaftype == "green")
+
+
+
+##linear regression for species 1 Brown
+lm_s1B_TML = lm(formula = perTML ~ Days_Leached, data =s1B)
+summary(lm_s1B_TML)
+##linear regression for species 1 Green
+lm_s1G_TML = lm(formula = perTML ~ Days_Leached, data =s1G)
+summary(lm_s1G_TML)
+
+##linear regression for species 2 Brown
+lm_s2B_TML = lm(formula = perTML ~ Days_Leached, data =s2B)
+summary(lm_s2B_TML)
+##linear regression for species 2 Green
+lm_s2G_TML = lm(formula = perTML ~ Days_Leached, data =s2G)
+summary(lm_s2G_TML)
+
+##linear regression for species 3 Brown
+lm_s3B_TML = lm(formula = perTML ~ Days_Leached, data =s3B)
+summary(lm_s3B_TML)
+##linear regression for species 3 Green
+lm_s3G_TML = lm(formula = perTML ~ Days_Leached, data =s3G)
+summary(lm_s3G_TML)
+
+##linear regression for species 4 Brown
+lm_s4B_TML = lm(formula = perTML ~ Days_Leached, data =s4B)
+summary(lm_s4B_TML)
+##linear regression for species 4 Green
+lm_s4G_TML = lm(formula = perTML ~ Days_Leached, data =s4G)
+summary(lm_s4G_TML)
+
+##linear regression for species 5 Brown
+lm_s5B_TML = lm(formula = perTML ~ Days_Leached, data =s5B)
+summary(lm_s5B_TML)
+##linear regression for species 5 Green
+lm_s5G_TML = lm(formula = perTML ~ Days_Leached, data =s5G)
+summary(lm_s5G_TML)
+
+##linear regression for species 6 Brown
+lm_s6B_TML = lm(formula = perTML ~ Days_Leached, data =s6B)
+summary(lm_s6B_TML)
+##linear regression for species 6 Green
+lm_s6G_TML = lm(formula = perTML ~ Days_Leached, data =s6G)
+summary(lm_s6G_TML)
+
+##linear regression for species 7 Brown
+lm_s7B_TML = lm(formula = perTML ~ Days_Leached, data =s7B)
+summary(lm_s7B_TML)
+##linear regression for species 7 Green
+lm_s7G_TML = lm(formula = perTML ~ Days_Leached, data =s7G)
+summary(lm_s7G_TML)
+
+
+####EXCLUDING SPECIES 8
+##linear regression for species 8 Brown
+lm_s8B_TML = lm(formula = perTML ~ Days_Leached, data =s8B)
+summary(lm_s8B_TML)
+##linear regression for species 8 Green
+lm_s8G_TML = lm(formula = perTML ~ Days_Leached, data =s8G)
+summary(lm_s8G_TML)
+
+##linear regression for species 9 Brown
+lm_s9B_TML = lm(formula = perTML ~ Days_Leached, data =s9B)
+summary(lm_s9B_TML)
+##linear regression for species 9 Green
+lm_s9G_TML = lm(formula = perTML ~ Days_Leached, data =s9G)
+summary(lm_s9G_TML)
+
+
+
+
+##ANCOVA stats???
+
+#need to verify that the covariate and the treatment are independent, so run an ANOVA 
+#fit anova model
+anova_model <- aov(perTML ~ leaftype, data = leachate.data[leachate.data$Species !=8,])
+#view summary of anova model
+summary(anova_model)
+###signifciant so we cant run Ancova?
+
+#need to verify that there is homogeneity of variance among the groups, we conduct Levene’s Test
+#load car library to conduct Levene's Test
+library(car)
+#conduct Levene's Test
+leveneTest(perTML~leaftype, data = leachate.data[leachate.data$Species !=8,])
+###signifciant so we cant run Ancova?
+
+
+#fit ANCOVA model
+ancova_model <- lm(perTML ~ Days_Leached + leaftype, data = leachate.data[leachate.data$Species !=8,])
+
+#view summary of model
+Anova(ancova_model, type="II")
+
+
+
+
+########TDN############
+##using TDN.dl because those are values corrected to account for detection limits
+
+###make a boxplot for TDN
+ggplot(leachate.data, aes(x=leaftype, y=TDN.dl)) + geom_boxplot() +labs(x= "Leaf Type", y= "Total Dissolved Nitrogen")
+##ANOVA for green leaves
+TDN <- lm(TDN.dl ~ leaftype, leachate.data[leachate.data$Species !=8,])
+anova(TDN)
+##NOT significant
+
+
+##checking if Days Leached is a number or character
+str(leachate.data$Days_Leached)
+
+##chnaging Days Lreached to be character
+leachate.data$Days_Leached <- as.factor(leachate.data$Days_Leached)
+str(leachate.data$Days_Leached)
+
+###make a boxplot for TDN
+#facet_wrap groups by leaves 
+ggplot(leachate.data, aes(x=Days_Leached, y=TDN.dl)) + geom_boxplot() + facet_wrap(~leaftype) + theme_cowplot() +labs(x= "Days Leached", y= "TDN mgN/g leaf")
+
+##ANOVA for green leaves
+TDN.DaysLeachedsG <- lm(TDN.dl ~ Days_Leached, green[green$Species !=8,])
+anova(TDN.DaysLeachedsG)
+#not significant
+
+##ANOVA for brown leaves
+TDN.DaysLeachedsB <- lm(TDN.dl ~ Days_Leached, brown[brown$Species !=8,])
+anova(TDN.DaysLeachedsB)
+##not significant
+
+TDNdata <- subset(leachate.data, Species != 1)
+
+###make a boxplot
+ggplot(leachate.data, aes(x = Species, y = TDN.dl, fill = Leaf.Stage)) +
+  geom_boxplot(outlier.shape = NA,  width = 0.75) + 
+  theme_cowplot() +labs(x= "Species", y= "TDN mg N/g leaf") + scale_fill_manual(values=c('seagreen','saddlebrown')) +
+  guides(fill = guide_legend(title = "Leaf Stage")) +
+  geom_point(aes(shape=Days_Leached, group = Leaf.Stage), position = position_dodge(1), alpha = 0.4, size=2) + 
+  guides(shape = guide_legend(title = "Days Leached")) +
+  theme(legend.text = element_text(size = 20),
+        axis.text = element_text(size = 24),
+        axis.title = element_text(size = 24),
+        legend.title = element_text(size = 20)) ###text size for agu
+
+
+##without species 1
+ggplot(TDNdata, aes(x = Species, y = TDN.dl, fill = Leaf.Stage)) +
+  geom_boxplot(outlier.shape = NA,  width = 0.75) + 
+  theme_cowplot() +labs(x= "Species", y= "TDN mg N/g leaf") + scale_fill_manual(values=c('seagreen','saddlebrown')) +
+  guides(fill = guide_legend(title = "Leaf Stage")) +
+  geom_point(aes(shape=Days_Leached, group = Leaf.Stage), position = position_dodge(1), alpha = 0.4, size=2) + 
+  guides(shape = guide_legend(title = "Days Leached")) +
+  theme(legend.text = element_text(size = 20),
+        axis.text = element_text(size = 24),
+        axis.title = element_text(size = 24),
+        legend.title = element_text(size = 20)) ###text size for agu
+
+
+#facet_wrap groups by species 
+ggplot(leachate.data, aes(x=leaftype, y=TDN.dl)) + geom_boxplot() + facet_wrap(~Species) + theme_cowplot() +labs(x= "Leaf Type", y= "TDN mg N/g leaf")
+
+
+
+
+
+##ANOVA for species 
+##need to filter by species
+s1 <- leachate.data %>%
+  filter(Species == 1)
+s2 <- leachate.data %>%
+  filter(Species == 2)
+s3 <- leachate.data %>%
+  filter(Species == 3)
+s4 <- leachate.data %>%
+  filter(Species == 4)
+s5 <- leachate.data %>%
+  filter(Species == 5)
+s6 <- leachate.data %>%
+  filter(Species == 6)
+s7 <- leachate.data %>%
+  filter(Species == 7)
+s8 <- leachate.data %>%
+  filter(Species == 8)
+s9 <- leachate.data %>%
+  filter(Species == 9)
+
+
+#ANOVA for s1
+TDN.leaftypes1 <- lm(TDN.dl ~ leaftype, s1)
+anova(TDN.leaftypes1)
+#not significant
+#ANOVA for s2
+TDN.leaftypes2 <- lm(TDN.dl ~ leaftype, s2)
+anova(TDN.leaftypes2)
+# significant!!
+#ANOVA for s3
+TDN.leaftypes3 <- lm(TDN.dl ~ leaftype, s3)
+anova(TDN.leaftypes3)
+#Significant!!
+#ANOVA for s4
+TDN.leaftypes4 <- lm(TDN.dl ~ leaftype, s4)
+anova(TDN.leaftypes4)
+#Not Significant
+#ANOVA for s5
+TDN.leaftypes5 <- lm(TDN.dl ~ leaftype, s5)
+anova(TDN.leaftypes5)
+#Significant!!
+#ANOVA for s6
+TDN.leaftypes6 <- lm(TDN.dl ~ leaftype, s6)
+anova(TDN.leaftypes6)
+#Significant!!
+#ANOVA for s7
+TDN.leaftypes7 <- lm(TDN.dl ~ leaftype, s7)
+anova(TDN.leaftypes7)
+#Significant!!
+######EXCLUDING SPECIES 8
+#ANOVA for s8
+TDN.leaftypes8 <- lm(TDN.dl ~ leaftype, s8)
+anova(TDN.leaftypes8)
+#Significant!!
+#ANOVA for s9
+TDN.leaftypes9 <- lm(TDN.dl ~ leaftype, s9)
+anova(TDN.leaftypes9)
+#Significant!!
+
+
+
+
+####DAY 7
+
+##ANOVA for each species DAY 7
+##need to filter by species by DAY7
+s1d7 <- day7 %>%
+  filter(Species == 1)
+s2d7 <- day7 %>%
+  filter(Species == 2)
+s3d7 <- day7 %>%
+  filter(Species == 3)
+s4d7 <- day7 %>%
+  filter(Species == 4)
+s5d7 <- day7 %>%
+  filter(Species == 5)
+s6d7 <- day7 %>%
+  filter(Species == 6)
+s7d7 <- day7 %>%
+  filter(Species == 7)
+s8d7 <- day7 %>%
+  filter(Species == 8)
+s9d7 <- day7 %>%
+  filter(Species == 9)
+
+#ANOVA for s1
+TDNday7.leaftypes1 <- lm(TDN.dl ~ leaftype, s1d7)
+anova(TDNday7.leaftypes1)
+#NOT Significant
+#ANOVA for s2
+TDNday7.leaftypes2 <- lm(TDN.dl ~ leaftype, s2d7)
+anova(TDNday7.leaftypes2)
+# significant!!
+#ANOVA for s3
+TDNday7.leaftypes3 <- lm(TDN.dl ~ leaftype, s3d7)
+anova(TDNday7.leaftypes3)
+#Significant
+#ANOVA for s4
+TDNday7.leaftypes4 <- lm(TDN.dl ~ leaftype, s4d7)
+anova(TDNday7.leaftypes4)
+#Significant!
+#ANOVA for s5
+TDNday7.leaftypes5 <- lm(TDN.dl ~ leaftype, s5d7)
+anova(TDNday7.leaftypes5)
+#Significant!!
+#ANOVA for s6
+TDNday7.leaftypes6 <- lm(TDN.dl ~ leaftype, s6d7)
+anova(TDNday7.leaftypes6)
+#Significant!!
+#ANOVA for s7
+TDNday7.leaftypes7 <- lm(TDN.dl ~ leaftype, s7d7)
+anova(TDNday7.leaftypes7)
+#Significant!!
+#####EXCLUDING SPECIES 8
+#ANOVA for s8
+TDNday7.leaftypes8 <- lm(TDN.dl ~ leaftype, s8d7)
+anova(TDNday7.leaftypes8)
+#ANOVA for s9
+TDNday7.leaftypes9 <- lm(TDN.dl ~ leaftype, s9d7)
+anova(TDNday7.leaftypes9)
+#Significant!!
+
+
+########DON########
+##using DON.dl because those are values corrected to account for detection limits
+
+###make a boxplot
+ggplot(leachate.data, aes(x = Species, y = DON.dl, fill = Leaf.Stage)) +
+  geom_boxplot(outlier.shape = NA,  width = 0.75) + 
+  theme_cowplot() +labs(x= "Species", y= "DON mg N/g leaf") + scale_fill_manual(values=c('seagreen','saddlebrown')) +
+  guides(fill = guide_legend(title = "Leaf Stage")) +
+  geom_point(aes(shape=Days_Leached, group = Leaf.Stage), position = position_dodge(1), alpha = 0.4, size=2) + 
+  guides(shape = guide_legend(title = "Days Leached")) 
+
+##Line GRAPH##
+##trying to facet by species
+ggplot(leachate.data, aes(x = as.numeric(leachate.data$Days_Leached), y = DON.dl, color=Leaf.Stage)) +
+  geom_point() + 
+  scale_color_manual(values=c('seagreen','saddlebrown')) +
+  guides(color = guide_legend(title = "Leaf Type")) +
+  geom_smooth(method= "lm", se=FALSE) + 
+  scale_x_continuous(breaks=c(0,1,3,7)) +
+  theme_bw() +
+  labs(x= "Days Leached", y= "DON mg N/g leaf") +
+  facet_wrap(~Species) 
+
+DIN2 <- subset(leachate.data, Species != 1)
+
+#DIN line graph
+ggplot(leachate.data, aes(x = as.numeric(leachate.data$Days_Leached), y = DIN_calc, color=Leaf.Stage)) +
+  geom_point() + 
+  scale_color_manual(values=c('seagreen','saddlebrown')) +
+  guides(color = guide_legend(title = "Leaf Type")) +
+  geom_smooth(method= "lm", se=FALSE) + 
+  scale_x_continuous(breaks=c(0,1,3,7)) +
+  theme_bw() +
+  labs(x= "Days Leached", y= "DIN mg N/g leaf") +
+  facet_wrap(~Species) 
+
+ggplot(DIN2, aes(x = as.numeric(DIN2$Days_Leached), y = DIN_calc, color=Leaf.Stage)) +
+  geom_point() + 
+  scale_color_manual(values=c('seagreen','saddlebrown')) +
+  guides(color = guide_legend(title = "Leaf Type")) +
+  geom_smooth(method= "lm", se=FALSE) + 
+  scale_x_continuous(breaks=c(0,1,3,7)) +
+  theme_bw() +
+  labs(x= "Days Leached", y= "DIN mg N/g leaf") +
+  facet_wrap(~Species) 
+
+#NO3 line graph
+ggplot(leachate.data, aes(x = as.numeric(leachate.data$Days_Leached), y = NO3.dl, color=Leaf.Stage)) +
+  geom_point() + 
+  scale_color_manual(values=c('seagreen','saddlebrown')) +
+  guides(color = guide_legend(title = "Leaf Type")) +
+  geom_smooth(method= "lm", se=FALSE) + 
+  scale_x_continuous(breaks=c(0,1,3,7)) +
+  theme_bw() +
+  labs(x= "Days Leached", y= "DIN mg N/g leaf") +
+  facet_wrap(~Species) 
+
+
+ggplot(DIN2, aes(x = as.numeric(DIN2$Days_Leached), y = NO3.dl, color=Leaf.Stage)) +
+  geom_point() + 
+  scale_color_manual(values=c('seagreen','saddlebrown')) +
+  guides(color = guide_legend(title = "Leaf Type")) +
+  geom_smooth(method= "lm", se=FALSE) + 
+  scale_x_continuous(breaks=c(0,1,3,7)) +
+  theme_bw() +
+  labs(x= "Days Leached", y= "NO3 mg N/g leaf") +
+  facet_wrap(~Species) 
+
+
+#NH4 line graph
+ggplot(leachate.data, aes(x = as.numeric(leachate.data$Days_Leached), y = NH4.dl, color=Leaf.Stage)) +
+  geom_point() + 
+  scale_color_manual(values=c('seagreen','saddlebrown')) +
+  guides(color = guide_legend(title = "Leaf Type")) +
+  geom_smooth(method= "lm", se=FALSE) + 
+  scale_x_continuous(breaks=c(0,1,3,7)) +
+  theme_bw() +
+  labs(x= "Days Leached", y= "DIN mg N/g leaf") +
+  facet_wrap(~Species) 
+
+ggplot(DIN2, aes(x = as.numeric(DIN2$Days_Leached), y = NH4.dl, color=Leaf.Stage)) +
+  geom_point() + 
+  scale_color_manual(values=c('seagreen','saddlebrown')) +
+  guides(color = guide_legend(title = "Leaf Type")) +
+  geom_smooth(method= "lm", se=FALSE) + 
+  scale_x_continuous(breaks=c(0,1,3,7)) +
+  theme_bw() +
+  labs(x= "Days Leached", y= "NH4 mg N/g leaf") +
+  facet_wrap(~Species) 
+
+
+#######POTASSIUM###########
+
+
+## Make a new row
+#create a row called leaf type
+##ifelse statement= if green column values equal 1, assign "green" as new value, if not, assign it brown
+leachate.data$leaftype <- ifelse(leachate.data$Green == 1, "green","brown")
+
+
+#convert integer to character
+leachate.data$Days_Leached <- as.character(leachate.data$Days_Leached)
+str(leachate.data$Days_Leached)
+
+###make a boxplot for Potassium conc
+ggplot(leachate.data, aes(x=leaftype,  y=K_mgK_g)) + geom_boxplot() + labs(x= "Leaf Type", y= "Potassium (mg K per g leaf)")
+
+#create a new dataframe that just has green leaves or brown leaves
+green <- leachate.data %>%
+  filter(leaftype == "green")
+
+
+brown <- leachate.data %>%
+  filter(leaftype == "brown")
+
+##ANOVA for green leaves
+Potassium.DaysG <- lm(K_mgK_g ~ Days_Leached, green[green$Species !=8,])
+anova(Potassium.DaysG)
+##days leached significant differnce but dont know which days, so do HSD test--means separation
+Potassium.DaysG_HSD <- HSD.test(Potassium.DaysG, "Days_Leached", group = T)
+Potassium.DaysG_HSD 
+
+
+##ANOVA for brown leaves
+Potassium.DaysB <- lm(K_mgK_g ~ Days_Leached, brown[brown$Species !=8,])
+anova(Potassium.DaysB)
+##days leached significant differnce but dont know which days, so do HSD test--means separation
+Potassium.DaysB_HSD <- HSD.test(Potassium.DaysB, "Days_Leached", group = T)
+Potassium.DaysB_HSD 
+
+
+###make a boxplot
+#facet_wrap groups by species and leaf type 
+ggplot(leachate.data, aes(x=Species, y=K_mgK_g, fill=Leaf.Stage)) + geom_boxplot()  + theme_cowplot() +labs(x= "Species", y= "Ptassium mg K/g leaf") + scale_fill_manual(values=c('seagreen','saddlebrown')) + theme(legend.position="none")
+
+#facet_wrap groups by species and leaf type 
+ggplot(leachate.data, aes(x=Species, y=K_mgK_g, fill=Leaf.Stage)) + geom_boxplot() + facet_wrap(~Leaf.Stage) + theme_cowplot() +labs(x= "Species", y= "Ptassium mg K/g leaf") + scale_fill_manual(values=c('seagreen','saddlebrown')) + theme(legend.position="none")
+
+
+
+##ANOVA for species 
+##need to filter by species
+s1 <- leachate.data %>%
+  filter(Species == 1)
+s2 <- leachate.data %>%
+  filter(Species == 2)
+s3 <- leachate.data %>%
+  filter(Species == 3)
+s4 <- leachate.data %>%
+  filter(Species == 4)
+s5 <- leachate.data %>%
+  filter(Species == 5)
+s6 <- leachate.data %>%
+  filter(Species == 6)
+s7 <- leachate.data %>%
+  filter(Species == 7)
+s8 <- leachate.data %>%
+  filter(Species == 8)
+s9 <- leachate.data %>%
+  filter(Species == 9)
+
+
+#ANOVA for s1
+K.leaftypes1 <- lm(K_mgK_g ~ leaftype, s1)
+anova(K.leaftypes1)
+#significant!!
+#ANOVA for s2
+K.leaftypes2 <- lm(K_mgK_g ~ leaftype, s2)
+anova(K.leaftypes2)
+# not significant
+#ANOVA for s3
+K.leaftypes3 <- lm(K_mgK_g ~ leaftype, s3)
+anova(K.leaftypes3)
+# not Significant
+#ANOVA for s4
+K.leaftypes4 <- lm(K_mgK_g ~ leaftype, s4)
+anova(K.leaftypes4)
+#Not significant
+#ANOVA for s5
+K.leaftypes5 <- lm(K_mgK_g ~ leaftype, s5)
+anova(K.leaftypes5)
+#Significant!!
+#ANOVA for s6
+K.leaftypes6 <- lm(K_mgK_g ~ leaftype, s6)
+anova(K.leaftypes6)
+# significant!!
+#ANOVA for s7
+K.leaftypes7 <- lm(K_mgK_g ~ leaftype, s7)
+anova(K.leaftypes7)
+#not Significant
+#ANOVA for s8
+K.leaftypes8 <- lm(K_mgK_g ~ leaftype, s8)
+anova(K.leaftypes8)
+#Significant!!
+#ANOVA for s9
+K.leaftypes9 <- lm(K_mgK_g ~ leaftype, s9)
+anova(K.leaftypes9)
+#Not significant
+
+
+##########Day 7 postassium conc
+day7 <- leachate.data %>%
+  filter(Days_Leached == 7)
+
+###make a boxplot for potassium conc after 7 days
+ggplot(day7, aes(x=leaftype, y=K_mgK_g)) + geom_boxplot() +labs(x= "Leaf Type", y= "Potassium (mg K per g leaf) after 7 days")
+##ANOVA for day 7
+K.Day7 <- lm(K_mgK_g ~ leaftype, day7[day7$Species !=8,])
+anova(K.Day7)
+##notsignificant
+
+
+###make a boxplot for day 7 green vs brown leaves
+#facet_wrap groups by species 
+ggplot(day7, aes(x=leaftype, y=K_mgK_g)) + geom_boxplot() + facet_wrap(~Species) + theme_cowplot() +labs(x= "Leaf Type", y= "Potassium (mg K per g leaf) after 7 days")
+
+
+##ANOVA for species 
+##need to filter by species by DAY7
+s1d7 <- day7 %>%
+  filter(Species == 1)
+s2d7 <- day7 %>%
+  filter(Species == 2)
+s3d7 <- day7 %>%
+  filter(Species == 3)
+s4d7 <- day7 %>%
+  filter(Species == 4)
+s5d7 <- day7 %>%
+  filter(Species == 5)
+s6d7 <- day7 %>%
+  filter(Species == 6)
+s7d7 <- day7 %>%
+  filter(Species == 7)
+s8d7 <- day7 %>%
+  filter(Species == 8)
+s9d7 <- day7 %>%
+  filter(Species == 9)
+
+
+#ANOVA for s1
+Kday7.leaftypes1 <- lm(K_mgK_g ~ leaftype, s1d7)
+anova(Kday7.leaftypes1)
+# significant!!!
+#ANOVA for s2
+Kday7.leaftypes2 <- lm(K_mgK_g ~ leaftype, s2d7)
+anova(Kday7.leaftypes2)
+#not significant
+#ANOVA for s3
+Kday7.leaftypes3 <- lm(K_mgK_g ~ leaftype, s3d7)
+anova(Kday7.leaftypes3)
+#not significant
+#ANOVA for s4
+Kday7.leaftypes4 <- lm(K_mgK_g ~ leaftype, s4d7)
+anova(Kday7.leaftypes4)
+# significant!
+#ANOVA for s5
+Kday7.leaftypes5 <- lm(K_mgK_g ~ leaftype, s5d7)
+anova(Kday7.leaftypes5)
+#Significant!!
+#ANOVA for s6
+Kday7.leaftypes6 <- lm(K_mgK_g ~ leaftype, s6d7)
+anova(Kday7.leaftypes6)
+#significant!
+#ANOVA for s7
+Kday7.leaftypes7 <- lm(K_mgK_g ~ leaftype, s7d7)
+anova(Kday7.leaftypes7)
+# significant!!
+#EXCLUDING SPECIES 8???
+#ANOVA for s8
+Kday7.leaftypes8 <- lm(K_mgK_g ~ leaftype, s8d7)
+anova(Kday7.leaftypes8)
+#not Significant
+#ANOVA for s9
+Kday7.leaftypes9 <- lm(K_mgK_g ~ leaftype, s9d7)
+anova(Kday7.leaftypes9)
+#Not Significant
+
+
+
+
+
+############ Potassium linear regression
+###LINE GRAPH FOR K
+
+# Load the required libraries
+library(ggplot2)
+library(tidyr)
+
+# Check if columns are numeric or character and convert if necessary
+leachate.data <- mutate_if(leachate.data, is.factor, as.character)
+
+
+
+##Creating new variable column based on leaf type saying "if my leaf type is equal to brown then call my new variable senesced, if its not equal to brown, call it fresh"
+leachate.data$Leaf.Stage= ifelse(leachate.data$leaftype=="brown","Senesced", "Fresh")
+
+##THIS GRAPH##
+##trying to facet by species
+ggplot(leachate.data, aes(x = as.numeric(leachate.data$Days_Leached), y = K_mgK_g, color=Leaf.Stage)) +
+  geom_point() + 
+  scale_color_manual(values=c('seagreen','saddlebrown')) +
+  guides(color = guide_legend(title = "Leaf Type")) +
+  geom_smooth(method= "lm", se=FALSE) + 
+  scale_x_continuous(breaks=c(0,1,3,7)) +
+  theme_bw() +
+  labs(x= "Days Leached", y= "Potassium (mg K per g leaf)") +
+  facet_wrap(~Species) 
+
+
+
+##checking if Days Leached is a number or character
+str(leachate.data$Days_Leached)
+
+##chnaging Days Lreached to be numeric
+leachate.data$Days_Leached <- as.numeric(leachate.data$Days_Leached)
+str(leachate.data$Days_Leached)
+
+##need to filter by species and leaf type
+s1 <- leachate.data %>%
+  filter(Species == 1)
+s2 <- leachate.data %>%
+  filter(Species == 2)
+s3 <- leachate.data %>%
+  filter(Species == 3)
+s4 <- leachate.data %>%
+  filter(Species == 4)
+s5 <- leachate.data %>%
+  filter(Species == 5)
+s6 <- leachate.data %>%
+  filter(Species == 6)
+s7 <- leachate.data %>%
+  filter(Species == 7)
+s8 <- leachate.data %>%
+  filter(Species == 8)
+s9 <- leachate.data %>%
+  filter(Species == 9)
+
+#filtering each species brown only
+s1B <- s1 %>%
+  filter(leaftype == "brown")
+s2B <- s2 %>%
+  filter(leaftype == "brown")
+s3B <- s3 %>%
+  filter(leaftype == "brown")
+s4B <- s4 %>%
+  filter(leaftype == "brown")
+s5B <- s5 %>%
+  filter(leaftype == "brown")
+s6B <- s6 %>%
+  filter(leaftype == "brown")
+s7B <- s7 %>%
+  filter(leaftype == "brown")
+s8B <- s8 %>%
+  filter(leaftype == "brown")
+s9B <- s9 %>%
+  filter(leaftype == "brown")
+
+#filtering each species green only
+s1G <- s1 %>%
+  filter(leaftype == "green")
+s2G <- s2 %>%
+  filter(leaftype == "green")
+s3G <- s3 %>%
+  filter(leaftype == "green")
+s4G <- s4 %>%
+  filter(leaftype == "green")
+s5G <- s5 %>%
+  filter(leaftype == "green")
+s6G <- s6 %>%
+  filter(leaftype == "green")
+s7G <- s7 %>%
+  filter(leaftype == "green")
+s8G <- s8 %>%
+  filter(leaftype == "green")
+s9G <- s9 %>%
+  filter(leaftype == "green")
+
+
+##STATS
+##linear regression for species 1 Brown
+lm_s1B_K = lm(formula = K_mgK_g ~ Days_Leached, data =s1B)
+summary(lm_s1B_K)
+##linear regression for species 1 Green
+lm_s1G_K = lm(formula = K_mgK_g ~ Days_Leached, data =s1G)
+summary(lm_s1G_K)
+
+##linear regression for species 2 Brown
+lm_s2B_K = lm(formula = K_mgK_g ~ Days_Leached, data =s2B)
+summary(lm_s2B_K)
+##linear regression for species 2 Green
+lm_s2G_K = lm(formula = K_mgK_g ~ Days_Leached, data =s2G)
+summary(lm_s2G_K)
+
+##linear regression for species 3 Brown
+lm_s3B_K = lm(formula = K_mgK_g ~ Days_Leached, data =s3B)
+summary(lm_s3B_K)
+##linear regression for species 3 Green
+lm_s3G_K = lm(formula = K_mgK_g ~ Days_Leached, data =s3G)
+summary(lm_s3G_K)
+
+##linear regression for species 4 Brown
+lm_s4B_K = lm(formula = K_mgK_g ~ Days_Leached, data =s4B)
+summary(lm_s4B_K)
+##linear regression for species 4 Green
+lm_s4G_K = lm(formula = K_mgK_g ~ Days_Leached, data =s4G)
+summary(lm_s4G_K)
+
+##linear regression for species 5 Brown
+lm_s5B_K = lm(formula = K_mgK_g ~ Days_Leached, data =s5B)
+summary(lm_s5B_K)
+##linear regression for species 5 Green
+lm_s5G_K = lm(formula = K_mgK_g ~ Days_Leached, data =s5G)
+summary(lm_s5G_K)
+
+##linear regression for species 6 Brown
+lm_s6B_K = lm(formula = K_mgK_g ~ Days_Leached, data =s6B)
+summary(lm_s6B_K)
+##linear regression for species 6 Green
+lm_s6G_K = lm(formula = K_mgK_g ~ Days_Leached, data =s6G)
+summary(lm_s6G_K)
+
+##linear regression for species 7 Brown
+lm_s7B_K = lm(formula = K_mgK_g ~ Days_Leached, data =s7B)
+summary(lm_s7B_K)
+##linear regression for species 7 Green
+lm_s7G_K = lm(formula = K_mgK_g ~ Days_Leached, data =s7G)
+summary(lm_s7G_K)
+
+##linear regression for species 8 Brown
+lm_s8B_K = lm(formula = K_mgK_g ~ Days_Leached, data =s8B)
+summary(lm_s8B_K)
+##linear regression for species 8 Green
+lm_s8G_K = lm(formula = K_mgK_g ~ Days_Leached, data =s8G)
+summary(lm_s8G_K)
+
+##linear regression for species 9 Brown
+lm_s9B_K = lm(formula = K_mgK_g ~ Days_Leached, data =s9B)
+summary(lm_s9B_K)
+##linear regression for species 9 Green
+lm_s9G_K = lm(formula = K_mgK_g ~ Days_Leached, data =s9G)
+summary(lm_s9G_K)
+
+
+
+##########Potassium plotted against C
+
+
+
+# Load the required libraries
+library(ggplot2)
+library(tidyr)
+
+# Check if columns are numeric or character and convert if necessary
+leachate.data <- mutate_if(leachate.data, is.factor, as.character)
+
+# Reshape the data from wide to long format
+leachate.data_long <- gather(leachate.data, key = "LeafType", value = "Value", percent_MassLost_C:Percent_MassLost_N)
+
+# Convert the 'Value' column to numeric
+leachate.data_long$Value <- as.numeric(leachate.data_long$Value)
+
+
+##Creating new variable column based on leaf type saying "if my leaf type is equal to brown then call my new variable senesced, if its not equal to brown, call it fresh"
+leachate.data$Leaf.Stage= ifelse(leachate.data$leaftype=="brown","Senesced", "Fresh")
+
+##THIS GRAPH##
+
+##DOC vs K
+ggplot(leachate.data, aes(x = as.numeric(leachate.data$NPOC_mgC_g), y = K_mgK_g, color=Leaf.Stage)) +
+  geom_point() + 
+  scale_color_manual(values=c('seagreen','saddlebrown')) +
+  guides(color = guide_legend(title = "Leaf Type")) +
+  geom_smooth(method= "lm", se=FALSE) + 
+  theme_bw() +
+  labs(x= "DOC mg C/g leaf", y= "Potassium (mg K per g leaf)")
+
+
+###linear regression
+  #filtering by leaftype
+
+  brownleaves <- leachate.data %>%
+  filter(leaftype == "brown")
+  
+  greenleaves <- leachate.data %>%
+    filter(leaftype == "green")
+  
+##linear regression for Green
+lm_G_KDOC = lm(formula = K_mgK_g ~ NPOC_mgC_g, data =greenleaves[greenleaves$Species !=8,])
+summary(lm_G_KDOC)
+
+##linear regression for Brown
+lm_B_KDOC = lm(formula = K_mgK_g ~ NPOC_mgC_g, data =brownleaves[brownleaves$Species !=8,])
+summary(lm_B_KDOC)
+
+
+
+##trying to facet by species
+ggplot(leachate.data, aes(x = as.numeric(leachate.data$NPOC_mgC_g), y = K_mgK_g, color=Leaf.Stage)) +
+  geom_point() + 
+  scale_color_manual(values=c('seagreen','saddlebrown')) +
+  guides(color = guide_legend(title = "Leaf Type")) +
+  geom_smooth(method= "lm", se=FALSE) + 
+  theme_bw() +
+  labs(x= "DOC mg C/g leaf", y= "Potassium (mg K per g leaf)") +
+  facet_wrap(~Species) 
+
+
+
+
+
+##leaf loss K and C
+
+ggplot(leachate.data, aes(x = Percent_LeafLostDueC, y = percent_LeafLostDueK, color=Leaf.Stage)) +
+  geom_point() + 
+  scale_color_manual(values=c('seagreen','saddlebrown')) +
+  guides(color = guide_legend(title = "Leaf Type")) +
+  geom_smooth(method= "lm", se=FALSE) + 
+  theme_bw() +
+  labs(x= "Percent leaf lost due to C", y= "Percent leaf lost due to K")
+
+  ###linear regression
+  #filtering by leaftype
+
+  brownleaves <- leachate.data %>%
+   filter(leaftype == "brown")
+
+  greenleaves <- leachate.data %>%
+    filter(leaftype == "green")
+
+  ##linear regression for Green
+    lm_G_perc.KDOC = lm(formula = percent_LeafLostDueK ~ Percent_LeafLostDueC, data =greenleaves[greenleaves$Species !=8,])
+    summary(lm_G_perc.KDOC)
+
+  ##linear regression for Brown
+    lm_B_perc.KDOC = lm(formula = percent_LeafLostDueK ~ Percent_LeafLostDueC, data =brownleaves[brownleaves$Species !=8,])
+    summary(lm_B_perc.KDOC)
+
+
+
+
+
+
+###############CALCIUM##################
+    
+    ## Make a new row
+    #create a row called leaf type
+    ##ifelse statement= if green column values equal 1, assign "green" as new value, if not, assign it brown
+    leachate.data$leaftype <- ifelse(leachate.data$Green == 1, "green","brown")
+    
+    
+    #convert integer to character
+    leachate.data$Days_Leached <- as.character(leachate.data$Days_Leached)
+    str(leachate.data$Days_Leached)
+    
+    ###make a boxplot for Calcium conc
+    ggplot(leachate.data, aes(x=leaftype,  y=Ca_mgCa_g)) + geom_boxplot() + labs(x= "Leaf Type", y= "Calcium (mg Ca per g leaf")
+    
+    ##boxplot by leaves and species
+    ggplot(leachate.data, aes(x = Species, y = Ca_mgCa_g, fill = Leaf.Stage)) +
+      geom_boxplot(outlier.shape = NA,  width = 0.75) + 
+      theme_cowplot() +labs(x= "Species", y= "Calcium mg Ca/g leaf") + scale_fill_manual(values=c('seagreen','saddlebrown')) +
+      guides(fill = guide_legend(title = "Leaf Stage")) +
+      geom_point(aes(shape=Days_Leached, group = Leaf.Stage), position = position_dodge(1), alpha = 0.4, size=2) + 
+      guides(shape = guide_legend(title = "Days Leached")) 
+    
+    ###make a boxplot
+    #facet_wrap groups by leaves 
+    ggplot(leachate.data, aes(x=Days_Leached, y=Ca_mgCa_g)) + geom_boxplot() + facet_wrap(~leaftype) + theme_cowplot() +labs(x= "Days Leached", y= "Calcium (mg Ca per g leaf)")
+    
+    #create a new dataframe that just has green leaves or brown leaves
+    green <- leachate.data %>%
+      filter(leaftype == "green")
+    
+    
+    brown <- leachate.data %>%
+      filter(leaftype == "brown")
+    
+    
+    
+    ##ANOVA for species 
+    ##need to filter by species
+    s1 <- leachate.data %>%
+      filter(Species == 1)
+    s2 <- leachate.data %>%
+      filter(Species == 2)
+    s3 <- leachate.data %>%
+      filter(Species == 3)
+    s4 <- leachate.data %>%
+      filter(Species == 4)
+    s5 <- leachate.data %>%
+      filter(Species == 5)
+    s6 <- leachate.data %>%
+      filter(Species == 6)
+    s7 <- leachate.data %>%
+      filter(Species == 7)
+    s8 <- leachate.data %>%
+      filter(Species == 8)
+    s9 <- leachate.data %>%
+      filter(Species == 9)
+    
+    
+    #ANOVA for s1
+    Ca.leaftypes1 <- lm(Ca_mgCa_g ~ leaftype, s1)
+    anova(Ca.leaftypes1)
+    #significant!!
+    #ANOVA for s2
+    Ca.leaftypes2 <- lm(Ca_mgCa_g ~ leaftype, s2)
+    anova(Ca.leaftypes2)
+    # not significant
+    #ANOVA for s3
+    Ca.leaftypes3 <- lm(Ca_mgCa_g ~ leaftype, s3)
+    anova(Ca.leaftypes3)
+    # not Significant
+    #ANOVA for s4
+    Ca.leaftypes4 <- lm(Ca_mgCa_g ~ leaftype, s4)
+    anova(Ca.leaftypes4)
+    #significant!
+    #ANOVA for s5
+    Ca.leaftypes5 <- lm(Ca_mgCa_g ~ leaftype, s5)
+    anova(Ca.leaftypes5)
+    #Not Significant
+    #ANOVA for s6
+    Ca.leaftypes6 <- lm(Ca_mgCa_g ~ leaftype, s6)
+    anova(Ca.leaftypes6)
+    # significant!!
+    #ANOVA for s7
+    Ca.leaftypes7 <- lm(Ca_mgCa_g ~ leaftype, s7)
+    anova(Ca.leaftypes7)
+    #not Significant
+    #ANOVA for s8
+    Ca.leaftypes8 <- lm(Ca_mgCa_g ~ leaftype, s8)
+    anova(Ca.leaftypes8)
+    #Significant!!
+    #ANOVA for s9
+    Ca.leaftypes9 <- lm(Ca_mgCa_g ~ leaftype, s9)
+    anova(Ca.leaftypes9)
+    #Significant!!
+    
+    
+    
+    
+    
+    ##########Day 7 Calcium conc
+    ####Calcium Conc-----Filter by day 7
+    day7 <- leachate.data %>%
+      filter(Days_Leached == 7)
+    
+    
+    
+    ##ANOVA for species 
+    ##need to filter by species by DAY1
+    s1d7 <- day7 %>%
+      filter(Species == 1)
+    s2d7 <- day7 %>%
+      filter(Species == 2)
+    s3d7 <- day7 %>%
+      filter(Species == 3)
+    s4d7 <- day7 %>%
+      filter(Species == 4)
+    s5d7 <- day7 %>%
+      filter(Species == 5)
+    s6d7 <- day7 %>%
+      filter(Species == 6)
+    s7d7 <- day7 %>%
+      filter(Species == 7)
+    s8d7 <- day7 %>%
+      filter(Species == 8)
+    s9d7 <- day7 %>%
+      filter(Species == 9)
+    
+    
+    #ANOVA for s1
+    Caday7.leaftypes1 <- lm(Ca_mgCa_g ~ leaftype, s1d7)
+    anova(Caday7.leaftypes1)
+    # significant!!!
+    #ANOVA for s2
+    Caday7.leaftypes2 <- lm(Ca_mgCa_g ~ leaftype, s2d7)
+    anova(Caday7.leaftypes2)
+    #not significant
+    #ANOVA for s3
+    Caday7.leaftypes3 <- lm(Ca_mgCa_g ~ leaftype, s3d7)
+    anova(Caday7.leaftypes3)
+    #Not significant
+    #ANOVA for s4
+    Caday7.leaftypes4 <- lm(Ca_mgCa_g ~ leaftype, s4d7)
+    anova(Caday7.leaftypes4)
+    #significant!
+    #ANOVA for s5
+    Caday7.leaftypes5 <- lm(Ca_mgCa_g ~ leaftype, s5d7)
+    anova(Caday7.leaftypes5)
+    #Not Significant
+    #ANOVA for s6
+    Caday7.leaftypes6 <- lm(Ca_mgCa_g ~ leaftype, s6d7)
+    anova(Caday7.leaftypes6)
+    # significant!!
+    #ANOVA for s7
+    Caday7.leaftypes7 <- lm(Ca_mgCa_g ~ leaftype, s7d7)
+    anova(Caday7.leaftypes7)
+    #not significant
+    #ANOVA for s8
+    Caday7.leaftypes8 <- lm(Ca_mgCa_g ~ leaftype, s8d7)
+    anova(Caday7.leaftypes8)
+    # Significant!!
+    #ANOVA for s9
+    Caday7.leaftypes9 <- lm(Ca_mgCa_g ~ leaftype, s9d7)
+    anova(Caday7.leaftypes9)
+    #Significant!!
+    
+    ###make a boxplot for calcium conc after 1 day
+    ggplot(day7, aes(x=leaftype, y=Ca_mgCa_g)) + geom_boxplot() +labs(x= "Leaf Type", y= "Calcium (mg Ca per g leaf) after 7 days")
+    ##ANOVA for day 7
+    Ca.Day7 <- lm(Ca_mgCa_g ~ leaftype, day7)
+    anova(Ca.Day7)
+    ##significant!!!!
+    
+    ###make a boxplot for day 7 green vs brown leaves
+    #facet_wrap groups by species 
+    ggplot(day7, aes(x=leaftype, y=Ca_mgCa_g)) + geom_boxplot() + facet_wrap(~Species) + theme_cowplot() +labs(x= "Leaf Type", y= "Calcium (mg Ca per g leaf) after 7 days")
+    
+    
+```
+
